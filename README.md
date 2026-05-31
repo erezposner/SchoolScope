@@ -1,8 +1,11 @@
 # 🔭 SchoolScope
 
-Interactive map of public schools across the **South Bay** — Sunnyvale, Cupertino / West
-Valley, West San Jose, Cambrian, and Almaden — with toggleable data overlays scraped live
-from [GreatSchools.org](https://www.greatschools.org). Built with Next.js + Leaflet.
+Interactive map of **~370 public schools across Silicon Valley & the Peninsula** — San Jose,
+Palo Alto, Mountain View, Sunnyvale, Cupertino, Santa Clara, Saratoga, Redwood City, Los
+Altos and Los Gatos — with toggleable data overlays scraped from
+[GreatSchools.org](https://www.greatschools.org). Built with Next.js + Leaflet. Markers are
+rendered on a canvas (`preferCanvas`) so hundreds of points stay smooth, and schools are
+grouped by city.
 
 Pick any metric to recolor **and resize** the school markers (a choropleth — bigger, brighter
 = higher value):

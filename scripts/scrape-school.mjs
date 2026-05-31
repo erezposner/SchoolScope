@@ -349,6 +349,7 @@ async function main() {
     process.exit(1);
   }
 
+  const noGeocode = args.includes("--no-geocode"); // bulk mode: geocode later
   let urls = [];
   let printOnly = false;
   if (args[0] === "--batch") {
@@ -361,25 +362,28 @@ async function main() {
     printOnly = args.includes("--print");
   }
 
+  let ok = 0;
+  let fail = 0;
   for (const url of urls) {
     try {
-      console.log("Scraping:", url);
-      const rec = await scrapeSchool(url);
-      console.log(
-        `  ✓ ${rec.name} | rating ${rec.metrics.rating} | low-income ${rec.metrics.lowIncome}% | s/t ${rec.metrics.studentsPerTeacher} | ${rec.lat},${rec.lng}`,
-      );
+      const rec = await scrapeSchool(url, { geocodeAddr: !noGeocode });
+      ok++;
       if (printOnly) {
         console.log(JSON.stringify(rec, null, 2));
       } else {
-        const n = upsertSchool(rec);
-        console.log(`  saved (${n} schools total)`);
+        upsertSchool(rec);
+        console.log(`✓ ${rec.name} | rating ${rec.metrics.rating} | ${rec.address.city}`);
       }
-      // Be polite to Nominatim (1 req/sec) and GreatSchools.
-      if (urls.length > 1) await new Promise((r) => setTimeout(r, 1200));
+      // Be polite to GreatSchools; only sleep the full second when geocoding.
+      if (urls.length > 1) {
+        await new Promise((r) => setTimeout(r, noGeocode ? 250 : 1200));
+      }
     } catch (e) {
-      console.error("  ✗ failed:", e.message);
+      fail++;
+      console.error("✗ failed:", url, "—", e.message);
     }
   }
+  console.error(`\nDone: ${ok} ok, ${fail} failed of ${urls.length}.`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

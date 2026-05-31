@@ -11,7 +11,7 @@ import {
 } from "react-leaflet";
 import type { School } from "@/lib/types";
 import { type MetricDef, colorFor, markerRadius } from "@/lib/metrics";
-import { DEFAULT_CENTER, DEFAULT_ZOOM } from "@/lib/areas";
+import { DEFAULT_CENTER, DEFAULT_ZOOM, primaryLevel } from "@/lib/areas";
 import type { Pathway } from "@/lib/pathways";
 
 interface Props {
@@ -96,7 +96,7 @@ export default function MapView({
             [selected.lat as number, selected.lng as number],
             [t.lat as number, t.lng as number],
           ],
-          color: LEVEL_RING[t.level ?? "e"] ?? "#fde047",
+          color: LEVEL_RING[primaryLevel(t)] ?? "#fde047",
         }))
       : [];
 
@@ -106,7 +106,12 @@ export default function MapView({
     isSel ? "#0f172a" : colorById.get(id) ?? "rgba(15,23,42,0.45)";
 
   return (
-    <MapContainer center={DEFAULT_CENTER} zoom={DEFAULT_ZOOM} scrollWheelZoom>
+    <MapContainer
+      center={DEFAULT_CENTER}
+      zoom={DEFAULT_ZOOM}
+      scrollWheelZoom
+      preferCanvas
+    >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a> &middot; data: GreatSchools.org'
         url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
@@ -163,7 +168,7 @@ export default function MapView({
           >
             <Tooltip direction="top" offset={[0, -6]} opacity={1}>
               <span className="school-tooltip">
-                {onPath ? `${LEVEL_LETTER[s.level ?? ""] ?? ""} · ` : ""}
+                {onPath ? `${LEVEL_LETTER[primaryLevel(s)] ?? ""} · ` : ""}
                 {s.name}
               </span>
               <br />

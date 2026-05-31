@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import type { School } from "@/lib/types";
 import { METRIC_BY_KEY } from "@/lib/metrics";
-import { AREAS, LEVELS, areaForSchool } from "@/lib/areas";
+import { LEVELS, areaForSchool, areasFromSchools, levelsOf } from "@/lib/areas";
 import { pathwayFor } from "@/lib/pathways";
 import ControlPanel from "./ControlPanel";
 import Legend from "./Legend";
@@ -24,9 +24,7 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
   const [schools, setSchools] = useState<School[]>(initialSchools);
   const [metricKey, setMetricKey] = useState<string>("rating");
   const [activeAreas, setActiveAreas] = useState<Set<string>>(
-    // "other" (far / continuation schools pulled in only as pathway targets) is
-    // off by default so it doesn't zoom the map out; pathway nodes still render.
-    new Set(AREAS.filter((a) => a.key !== "other").map((a) => a.key)),
+    () => new Set(areasFromSchools(initialSchools).map((a) => a.key)),
   );
   const [activeLevels, setActiveLevels] = useState<Set<string>>(
     new Set(LEVELS.map((l) => l.key)),
@@ -37,11 +35,11 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
 
   const visible = useMemo(
     () =>
-      schools.filter(
-        (s) =>
-          activeAreas.has(areaForSchool(s)) &&
-          activeLevels.has(s.level ?? "e"),
-      ),
+      schools.filter((s) => {
+        if (!activeAreas.has(areaForSchool(s))) return false;
+        const ls = levelsOf(s);
+        return ls.length === 0 || ls.some((l) => activeLevels.has(l));
+      }),
     [schools, activeAreas, activeLevels],
   );
 

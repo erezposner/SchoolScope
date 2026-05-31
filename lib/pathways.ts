@@ -1,4 +1,5 @@
 import type { School } from "./types";
+import { primaryLevel } from "./areas";
 
 // ---------------------------------------------------------------------------
 // We can't get a reliable address-level elementary→middle→high assignment from
@@ -77,12 +78,12 @@ export function pathwayFor(selected: School, all: School[]): Pathway {
   const hsd = hsDistrictOf(k8);
   const sameDistrict = all.filter((s) => String(s.district) === k8);
   const unifiedOrHS = hsd === k8;
-  const isHSonly = sameDistrict.length > 0 && sameDistrict.every((s) => s.level === "h");
+  const isHSonly = sameDistrict.length > 0 && sameDistrict.every((s) => primaryLevel(s) === "h");
 
-  const byLevel = (pool: School[], lvl: Level) => pool.filter((s) => s.level === lvl);
+  const byLevel = (pool: School[], lvl: Level) => pool.filter((s) => primaryLevel(s) === lvl);
   const regionHighs = all.filter(
     (s) =>
-      s.level === "h" &&
+      primaryLevel(s) === "h" &&
       hsDistrictOf(s.district) === hsd &&
       s.rating != null &&
       !ALT_RE.test(s.name),
@@ -94,8 +95,8 @@ export function pathwayFor(selected: School, all: School[]): Pathway {
 
   if (isHSonly) {
     // selected is a high school: show the elementaries / middles that feed it
-    elems = all.filter((s) => s.level === "e" && hsDistrictOf(s.district) === hsd);
-    middles = all.filter((s) => s.level === "m" && hsDistrictOf(s.district) === hsd);
+    elems = all.filter((s) => primaryLevel(s) === "e" && hsDistrictOf(s.district) === hsd);
+    middles = all.filter((s) => primaryLevel(s) === "m" && hsDistrictOf(s.district) === hsd);
     highs = byLevel(sameDistrict, "h");
   } else if (unifiedOrHS) {
     // unified K-12 district — every level is the same district
@@ -133,14 +134,14 @@ export function pathwayFor(selected: School, all: School[]): Pathway {
   const lineTargets = highlight.filter(
     (s) =>
       String(s.id) !== String(selected.id) &&
-      s.level !== selected.level &&
+      primaryLevel(s) !== primaryLevel(selected) &&
       s.lat != null &&
       s.lng != null,
   );
 
   const zoneUrl =
     "https://www.greatschools.org/school-district-boundaries-map/?" +
-    `districtId=${selected.district ?? ""}&level=${selected.level ?? "e"}` +
+    `districtId=${selected.district ?? ""}&level=${primaryLevel(selected) ?? "e"}` +
     `&schoolId=${selected.id}&state=${selected.address.state ?? "CA"}`;
 
   return {

@@ -9,9 +9,13 @@ import {
   colorFor,
   rampColorAt,
 } from "@/lib/metrics";
-import { AREAS, AREA_BY_KEY, LEVELS, areaForSchool } from "@/lib/areas";
-
-const LEVEL_LABEL: Record<string, string> = { e: "Elementary", m: "Middle", h: "High" };
+import {
+  LEVELS,
+  areaForSchool,
+  areasFromSchools,
+  levelsOf,
+  levelLabel,
+} from "@/lib/areas";
 
 const GROUP_LABELS: Record<MetricDef["group"], string> = {
   overview: "Overview",
@@ -47,14 +51,11 @@ export default function ControlPanel(props: Props) {
 
   const levelCounts = LEVELS.map((l) => ({
     ...l,
-    count: schools.filter((s) => (s.level ?? "e") === l.key).length,
+    count: schools.filter((s) => levelsOf(s).includes(l.key as "e" | "m" | "h")).length,
   }));
 
-  // Only show area pills that actually contain schools (hides empty "Other").
-  const areaCounts = AREAS.map((a) => ({
-    ...a,
-    count: schools.filter((s) => areaForSchool(s) === a.key).length,
-  })).filter((a) => a.count > 0);
+  // City pills derived from the data, largest first.
+  const areaCounts = areasFromSchools(schools);
 
   const groups = ["overview", "equity", "staffing", "demographics"] as const;
 
@@ -63,8 +64,9 @@ export default function ControlPanel(props: Props) {
       <div className="brand">
         <h1>🔭 SchoolScope</h1>
         <p>
-          South Bay public schools — {schools.length} mapped. Pick a metric to recolor &amp;
-          resize the markers; click any school for its district family and stats.
+          Silicon Valley &amp; Peninsula public schools — {schools.length} mapped. Pick a
+          metric to recolor &amp; resize the markers; click any school for its district
+          family and stats.
         </p>
       </div>
 
@@ -223,8 +225,7 @@ function SchoolSearch({
                 <span className="search-meta">
                   <span className="search-name">{s.name}</span>
                   <span className="search-sub">
-                    {LEVEL_LABEL[s.level ?? ""] ?? ""} ·{" "}
-                    {AREA_BY_KEY[areaForSchool(s)]?.label ?? s.address.city ?? "South Bay"}
+                    {levelLabel(s)} · {areaForSchool(s)}
                   </span>
                 </span>
               </button>

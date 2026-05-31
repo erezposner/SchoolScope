@@ -3,10 +3,8 @@
 import { useRef } from "react";
 import type { School } from "@/lib/types";
 import { colorFor, demoColor, METRIC_BY_KEY } from "@/lib/metrics";
-import { AREA_BY_KEY, areaForSchool } from "@/lib/areas";
+import { areaForSchool, levelLabel } from "@/lib/areas";
 import type { Pathway } from "@/lib/pathways";
-
-const LEVEL_LABEL: Record<string, string> = { e: "Elementary", m: "Middle", h: "High" };
 
 export default function SchoolDetail({
   school,
@@ -52,7 +50,7 @@ export default function SchoolDetail({
     }
   }
 
-  const area = AREA_BY_KEY[areaForSchool(school)];
+  const areaLabel = areaForSchool(school);
   const ratingColor = colorFor(METRIC_BY_KEY.rating, school.rating, 1);
 
   const demos = Object.entries(school.demographics)
@@ -83,8 +81,8 @@ export default function SchoolDetail({
       <h2>{school.name}</h2>
       <p className="sub">
         {school.grades ? `Grades ${school.grades} · ` : ""}
-        {school.level ? `${LEVEL_LABEL[school.level] ?? school.level} · ` : ""}
-        {area ? area.label : "South Bay"}
+        {`${levelLabel(school)} · `}
+        {areaLabel}
         <br />
         {school.address.full ?? ""}
         {school.districtName && (
@@ -220,7 +218,7 @@ function RelRow({
         {school.rating ?? "—"}
       </span>
       <span className="rel-name">{shortName(school.name)}</span>
-      <span className="rel-level">{LEVEL_LABEL[school.level ?? ""] ?? ""}</span>
+      <span className="rel-level">{levelLabel(school)}</span>
     </button>
   );
 }
