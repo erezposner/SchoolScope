@@ -49,6 +49,15 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
   // clicks "Show" in the detail panel, so selecting a school stays uncluttered.
   const [showPathway, setShowPathway] = useState(false);
 
+  // Mobile: the sidebar is an off-canvas drawer (no effect on desktop layout).
+  const [controlsOpen, setControlsOpen] = useState(false);
+
+  // Selecting a school also closes the mobile drawer so the map is visible.
+  function selectSchool(id: School["id"] | null) {
+    setSelectedId(id);
+    setControlsOpen(false);
+  }
+
   const selected = useMemo(
     () => schools.find((s) => s.id === selectedId) ?? null,
     [schools, selectedId],
@@ -98,7 +107,28 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
 
   return (
     <div className="app">
-      <aside className="sidebar">
+      {/* Mobile-only: open the controls drawer */}
+      <button
+        className="mobile-fab"
+        onClick={() => setControlsOpen(true)}
+        aria-label="Open filters and search"
+      >
+        ☰ Filters
+      </button>
+
+      {/* Mobile-only: tap-out backdrop behind the open drawer */}
+      {controlsOpen && (
+        <div className="drawer-backdrop" onClick={() => setControlsOpen(false)} />
+      )}
+
+      <aside className={`sidebar ${controlsOpen ? "open" : ""}`}>
+        <button
+          className="sidebar-close"
+          onClick={() => setControlsOpen(false)}
+          aria-label="Close filters"
+        >
+          ×
+        </button>
         <ControlPanel
           schools={schools}
           metricKey={metricKey}
@@ -107,7 +137,7 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
           onToggleArea={toggleArea}
           activeLevels={activeLevels}
           onToggleLevel={toggleLevel}
-          onSelectSchool={setSelectedId}
+          onSelectSchool={selectSchool}
           onSchoolAdded={onSchoolAdded}
         />
       </aside>
@@ -118,7 +148,7 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
           metric={metric}
           selectedId={selectedId}
           selected={selected}
-          onSelect={setSelectedId}
+          onSelect={selectSchool}
           pathway={pathway}
         />
         <Legend metric={metric} schools={visible} />
@@ -128,7 +158,7 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
             pathway={pathway}
             showPathway={showPathway}
             onTogglePathway={() => setShowPathway((v) => !v)}
-            onSelect={setSelectedId}
+            onSelect={selectSchool}
             onClose={() => setSelectedId(null)}
           />
         )}
