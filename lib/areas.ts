@@ -14,6 +14,12 @@ export interface AreaDef {
 // scraped school is never silently hidden by the area filter.
 export const AREAS: AreaDef[] = [
   {
+    key: "losaltos",
+    label: "Los Altos",
+    color: "#d97706",
+    bounds: [37.335, -122.135, 37.43, -122.08],
+  },
+  {
     key: "sunnyvale",
     label: "Sunnyvale",
     color: "#2563eb",

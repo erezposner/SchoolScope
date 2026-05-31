@@ -1,9 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import type { School } from "@/lib/types";
-import { METRICS, type MetricDef, rampColorAt } from "@/lib/metrics";
-import { AREAS, LEVELS, areaForSchool } from "@/lib/areas";
+import {
+  METRICS,
+  METRIC_BY_KEY,
+  type MetricDef,
+  colorFor,
+  rampColorAt,
+} from "@/lib/metrics";
+import { AREAS, AREA_BY_KEY, LEVELS, areaForSchool } from "@/lib/areas";
+
+const LEVEL_LABEL: Record<string, string> = { e: "Elementary", m: "Middle", h: "High" };
 
 const GROUP_LABELS: Record<MetricDef["group"], string> = {
   overview: "Overview",
@@ -20,6 +28,7 @@ interface Props {
   onToggleArea: (k: string) => void;
   activeLevels: Set<string>;
   onToggleLevel: (k: string) => void;
+  onSelectSchool: (id: School["id"]) => void;
   onSchoolAdded: (s: School) => void;
 }
 
@@ -32,6 +41,7 @@ export default function ControlPanel(props: Props) {
     onToggleArea,
     activeLevels,
     onToggleLevel,
+    onSelectSchool,
     onSchoolAdded,
   } = props;
 
@@ -57,6 +67,8 @@ export default function ControlPanel(props: Props) {
           resize the markers; click any school for its district family and stats.
         </p>
       </div>
+
+      <SchoolSearch schools={schools} onSelect={onSelectSchool} />
 
       <div>
         <p className="section-title">Areas</p>
@@ -134,6 +146,93 @@ export default function ControlPanel(props: Props) {
         affiliated with GreatSchools.
       </div>
     </>
+  );
+}
+
+function SchoolSearch({
+  schools,
+  onSelect,
+}: {
+  schools: School[];
+  onSelect: (id: School["id"]) => void;
+}) {
+  const [q, setQ] = useState("");
+  const [open, setOpen] = useState(false);
+
+  const matches = useMemo(() => {
+    const t = q.trim().toLowerCase();
+    if (!t) return [];
+    return schools
+      .filter(
+        (s) =>
+          s.name.toLowerCase().includes(t) ||
+          (s.districtName ?? "").toLowerCase().includes(t) ||
+          (s.address.city ?? "").toLowerCase().includes(t),
+      )
+      .sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0))
+      .slice(0, 8);
+  }, [q, schools]);
+
+  function pick(id: School["id"]) {
+    onSelect(id);
+    setQ("");
+    setOpen(false);
+  }
+
+  return (
+    <div className="search">
+      <p className="section-title">Find a school</p>
+      <div className="search-box">
+        <span className="search-icon">🔍</span>
+        <input
+          type="text"
+          placeholder="Search by school, district or city…"
+          value={q}
+          onChange={(e) => {
+            setQ(e.target.value);
+            setOpen(true);
+          }}
+          onFocus={() => setOpen(true)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" && matches[0]) pick(matches[0].id);
+            if (e.key === "Escape") {
+              setQ("");
+              setOpen(false);
+            }
+          }}
+        />
+        {q && (
+          <button className="search-clear" onClick={() => setQ("")} aria-label="Clear">
+            ×
+          </button>
+        )}
+      </div>
+      {open && q.trim() && (
+        <div className="search-results">
+          {matches.length === 0 ? (
+            <div className="search-empty">No schools match “{q.trim()}”</div>
+          ) : (
+            matches.map((s) => (
+              <button key={String(s.id)} className="search-result" onClick={() => pick(s.id)}>
+                <span
+                  className="search-dot"
+                  style={{ background: colorFor(METRIC_BY_KEY.rating, s.rating, 1) }}
+                >
+                  {s.rating ?? "—"}
+                </span>
+                <span className="search-meta">
+                  <span className="search-name">{s.name}</span>
+                  <span className="search-sub">
+                    {LEVEL_LABEL[s.level ?? ""] ?? ""} ·{" "}
+                    {AREA_BY_KEY[areaForSchool(s)]?.label ?? s.address.city ?? "South Bay"}
+                  </span>
+                </span>
+              </button>
+            ))
+          )}
+        </div>
+      )}
+    </div>
   );
 }
 

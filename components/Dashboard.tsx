@@ -45,7 +45,9 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
     [schools, activeAreas, activeLevels],
   );
 
-  const [showPathway, setShowPathway] = useState(true);
+  // District family / feeder connections are opt-in — hidden until the user
+  // clicks "Show" in the detail panel, so selecting a school stays uncluttered.
+  const [showPathway, setShowPathway] = useState(false);
 
   const selected = useMemo(
     () => schools.find((s) => s.id === selectedId) ?? null,
@@ -105,6 +107,7 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
           onToggleArea={toggleArea}
           activeLevels={activeLevels}
           onToggleLevel={toggleLevel}
+          onSelectSchool={setSelectedId}
           onSchoolAdded={onSchoolAdded}
         />
       </aside>
@@ -114,6 +117,7 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
           schools={visible}
           metric={metric}
           selectedId={selectedId}
+          selected={selected}
           onSelect={setSelectedId}
           pathway={pathway}
         />

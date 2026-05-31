@@ -5030,5 +5030,214 @@
     "scrapedAt": "2026-05-31T11:16:13.762Z",
     "districtName": "Union Elementary School District",
     "districtUrl": "https://www.greatschools.org/california/san-jose/union-elementary-school-district/"
+  },
+  {
+    "id": 5521,
+    "name": "Springer Elementary School",
+    "url": "https://www.greatschools.org/california/mountain-view/5521-Springer-Elementary-School/",
+    "path": "/california/mountain-view/5521-Springer-Elementary-School/",
+    "rating": 10,
+    "level": "e",
+    "type": "public",
+    "grades": "K-6",
+    "district": "637",
+    "districtName": "Los Altos Elementary School District",
+    "districtUrl": "https://www.greatschools.org/california/los-altos/los-altos-elementary-school-district/",
+    "address": {
+      "street": "1120 Rose Avenue",
+      "city": "Mountain View",
+      "state": "CA",
+      "zip": "94040",
+      "full": "1120 Rose Avenue, Mountain View, CA, 94040"
+    },
+    "phone": "(650) 943-4200",
+    "lat": 37.3710097,
+    "lng": -122.0885932,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 4.9,
+      "englishLearners": 14.5,
+      "studentsPerTeacher": 20,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 43.8,
+      "White": 34.5,
+      "Two or more races": 13.7,
+      "Hispanic": 6.8,
+      "Pacific Islander": 0.3,
+      "Filipino": 0.3
+    },
+    "gender": {
+      "male": 53.7,
+      "female": 46.3
+    },
+    "nearby": {
+      "elementary": {
+        "id": 12456,
+        "name": "Covington Elementary School",
+        "path": "/california/los-altos/12456-Covington-Elementary-School/",
+        "distanceMi": 0.68,
+        "type": "Public district",
+        "grades": "K-6"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 4.67,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 12.87,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:14:45.227Z"
+  },
+  {
+    "id": 5443,
+    "name": "Montclaire Elementary School",
+    "url": "https://www.greatschools.org/california/los-altos/5443-Montclaire-Elementary-School/",
+    "path": "/california/los-altos/5443-Montclaire-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/",
+    "address": {
+      "street": "1160 Saint Joseph Avenue",
+      "city": "Los Altos",
+      "state": "CA",
+      "zip": "94024",
+      "full": "1160 Saint Joseph Avenue, Los Altos, CA, 94024"
+    },
+    "phone": "650-967-9388",
+    "lat": 37.3421302,
+    "lng": -122.0824087,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 8.8,
+      "englishLearners": 10.6,
+      "studentsPerTeacher": 23,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 51.8,
+      "White": 26.2,
+      "Two or more races": 8.1,
+      "Hispanic": 5.2,
+      "Filipino": 0.5,
+      "Pacific Islander": 0.2,
+      "Native American": 0.2,
+      "Black": 0.2,
+      "Unspecified": 9
+    },
+    "gender": {
+      "male": 55.2,
+      "female": 44.6
+    },
+    "nearby": {
+      "elementary": {
+        "id": 10862,
+        "name": "Amy Imai Elementary",
+        "path": "/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/",
+        "distanceMi": 2.27,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 14794,
+        "name": "Sam H. Lawson Middle School",
+        "path": "/california/cupertino/14794-Sam-H.-Lawson-Middle-School/",
+        "distanceMi": 3.22,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 12.41,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:14:45.227Z"
+  },
+  {
+    "id": 5518,
+    "name": "Loyola Elementary School",
+    "url": "https://www.greatschools.org/california/los-altos/5518-Loyola-Elementary-School/",
+    "path": "/california/los-altos/5518-Loyola-Elementary-School/",
+    "rating": 10,
+    "level": "e",
+    "type": "public",
+    "grades": "K-6",
+    "district": "637",
+    "districtName": "Los Altos Elementary School District",
+    "districtUrl": "https://www.greatschools.org/california/los-altos/los-altos-elementary-school-district/",
+    "address": {
+      "street": "770 Berry Avenue",
+      "city": "Los Altos",
+      "state": "CA",
+      "zip": "94024",
+      "full": "770 Berry Avenue, Los Altos, CA, 94024"
+    },
+    "phone": "(650) 254-2400",
+    "lat": 37.3613628,
+    "lng": -122.0948586,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 2.7,
+      "englishLearners": 9.8,
+      "studentsPerTeacher": 17,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 38.7,
+      "White": 37.9,
+      "Two or more races": 17.2,
+      "Hispanic": 6,
+      "Filipino": 0.3
+    },
+    "gender": {
+      "male": 51,
+      "female": 49
+    },
+    "nearby": {
+      "elementary": {
+        "id": 10862,
+        "name": "Amy Imai Elementary",
+        "path": "/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/",
+        "distanceMi": 1.35,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 4.94,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 12.79,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:14:45.227Z"
   }
 ]

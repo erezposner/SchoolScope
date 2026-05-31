@@ -18,11 +18,26 @@ interface Props {
   schools: School[];
   metric: MetricDef;
   selectedId: School["id"] | null;
+  selected: School | null;
   onSelect: (id: School["id"]) => void;
   pathway: Pathway | null;
 }
 
 const LEVEL_LETTER: Record<string, string> = { e: "E", m: "M", h: "H" };
+
+// Pan/zoom to the selected school when the selection changes (e.g. from search).
+function FlyToSelected({ school }: { school: School | null }) {
+  const map = useMap();
+  useEffect(() => {
+    if (school && school.lat != null && school.lng != null) {
+      map.flyTo([school.lat, school.lng], Math.max(map.getZoom(), 13.5), {
+        duration: 0.7,
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [school?.id]);
+  return null;
+}
 
 // Fit the map to the visible schools whenever the set changes.
 function FitBounds({ schools }: { schools: School[] }) {
@@ -44,12 +59,12 @@ export default function MapView({
   schools,
   metric,
   selectedId,
+  selected,
   onSelect,
   pathway,
 }: Props) {
   const highlightIds = pathway?.highlightIds ?? new Set<string>();
   const pathActive = highlightIds.size > 0;
-  const selected = pathway?.selected ?? null;
 
   // level + color per highlighted school id, for ring colors
   const colorById = new Map<string, string>();
@@ -64,11 +79,12 @@ export default function MapView({
     h: "#22d3ee",
   };
 
-  // Render highlighted schools even if a filter would hide them, so the
-  // connections are never broken. Merge them into the render set (deduped).
+  // Render highlighted schools (and the selected one) even if a filter would
+  // hide them, so connections aren't broken and a searched school always shows.
   const rendered = [...schools];
-  for (const s of pathway?.lineTargets ?? []) {
-    if (!rendered.some((r) => r.id === s.id)) rendered.push(s);
+  const extras = [...(pathway?.lineTargets ?? []), ...(selected ? [selected] : [])];
+  for (const s of extras) {
+    if (s.lat != null && !rendered.some((r) => r.id === s.id)) rendered.push(s);
   }
 
   // hub-and-spoke connectors from the selected school to each related school,
@@ -95,6 +111,7 @@ export default function MapView({
       />
 
       <FitBounds schools={schools} />
+      <FlyToSelected school={selected} />
 
       {/* District connectors (hub-and-spoke from selected school, by level) */}
       {spokes.map(({ seg, color }, i) => (
