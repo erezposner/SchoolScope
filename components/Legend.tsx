@@ -47,9 +47,25 @@ export default function Legend({
         </span>
       </div>
 
-      {/* Range filter — show only schools whose value falls in [rmin, rmax] */}
-      <div className="range-row">
-        <span className="range-label">Filter</span>
+      {/* Range filter — show only schools whose value falls in [rmin, rmax].
+          The value label sits on its own row so the track width never shifts. */}
+      <div className="range-filter">
+        <div className="range-head">
+          <span className="range-label">Filter range</span>
+          <span className="range-vals">
+            {metric.format(rmin)} – {metric.format(rmax)}
+          </span>
+          {filtered && (
+            <button
+              className="range-reset"
+              onClick={() => onRangeChange([min, max])}
+              aria-label="Reset filter"
+              title="Reset filter"
+            >
+              Reset ×
+            </button>
+          )}
+        </div>
         <div className="range-track">
           <div
             className="range-fill"
@@ -63,9 +79,7 @@ export default function Legend({
             step={step}
             value={rmin}
             aria-label={`Minimum ${metric.label}`}
-            onChange={(e) =>
-              onRangeChange([Math.min(+e.target.value, rmax), rmax])
-            }
+            onChange={(e) => onRangeChange([Math.min(+e.target.value, rmax), rmax])}
           />
           <input
             type="range"
@@ -75,24 +89,9 @@ export default function Legend({
             step={step}
             value={rmax}
             aria-label={`Maximum ${metric.label}`}
-            onChange={(e) =>
-              onRangeChange([rmin, Math.max(+e.target.value, rmin)])
-            }
+            onChange={(e) => onRangeChange([rmin, Math.max(+e.target.value, rmin)])}
           />
         </div>
-        <span className="range-vals">
-          {metric.format(rmin)}–{metric.format(rmax)}
-        </span>
-        {filtered && (
-          <button
-            className="range-reset"
-            onClick={() => onRangeChange([min, max])}
-            aria-label="Reset filter"
-            title="Reset filter"
-          >
-            ×
-          </button>
-        )}
       </div>
 
       <div className="legend-size">

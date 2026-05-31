@@ -62,10 +62,14 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
   // Mobile: the sidebar is an off-canvas drawer (no effect on desktop layout).
   const [controlsOpen, setControlsOpen] = useState(false);
 
-  // Selecting a school also closes the mobile drawer so the map is visible.
+  // On mobile the detail opens as a small "peek" card first; tap to expand.
+  const [expanded, setExpanded] = useState(false);
+
+  // Selecting a school also closes the mobile drawer and starts collapsed.
   function selectSchool(id: School["id"] | null) {
     setSelectedId(id);
     setControlsOpen(false);
+    setExpanded(false);
   }
 
   // Back-button handling: while a school sheet is open, the browser/Android
@@ -203,6 +207,8 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
             onTogglePathway={() => setShowPathway((v) => !v)}
             onSelect={selectSchool}
             onClose={closeSchool}
+            expanded={expanded}
+            onToggleExpand={() => setExpanded((v) => !v)}
           />
         )}
       </div>

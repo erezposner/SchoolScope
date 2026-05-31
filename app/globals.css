@@ -276,11 +276,14 @@ a {
   color: var(--muted);
 }
 /* ---- Legend range filter (dual slider) ---- */
-.range-row {
+.range-filter {
+  margin-top: 11px;
+}
+.range-head {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-top: 11px;
+  margin-bottom: 2px;
 }
 .range-label {
   font-size: 10px;
@@ -289,9 +292,27 @@ a {
   color: var(--muted);
   flex: 0 0 auto;
 }
+.range-vals {
+  font-size: 11px;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.range-reset {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 11px;
+  padding: 0;
+  flex: 0 0 auto;
+}
+.range-reset:hover {
+  text-decoration: underline;
+}
 .range-track {
   position: relative;
-  flex: 1;
+  width: 100%;
   height: 18px;
 }
 .range-track::before {
@@ -346,27 +367,6 @@ a {
   border: 2px solid var(--accent);
   cursor: pointer;
 }
-.range-vals {
-  font-size: 10.5px;
-  color: var(--text);
-  flex: 0 0 auto;
-  min-width: 56px;
-  text-align: right;
-}
-.range-reset {
-  background: none;
-  border: none;
-  color: var(--muted);
-  cursor: pointer;
-  font-size: 15px;
-  line-height: 1;
-  padding: 0 2px;
-  flex: 0 0 auto;
-}
-.range-reset:hover {
-  color: var(--text);
-}
-
 .legend-size {
   display: flex;
   align-items: center;
@@ -430,6 +430,29 @@ a {
   font-size: 12px;
   color: var(--muted);
   margin: 0 0 12px;
+}
+/* Tappable peek header (collapsed card on mobile). On desktop the peek
+   affordances are hidden and the full body always shows. */
+.detail-head {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding-right: 20px;
+}
+.detail-head-text {
+  min-width: 0;
+  flex: 1;
+}
+.detail-head h2 {
+  padding-right: 0;
+  margin: 0;
+}
+.head-sub {
+  margin: 2px 0 0;
+}
+.peek-badge,
+.peek-hint {
+  display: none;
 }
 .rating-badge {
   display: inline-flex;
@@ -811,18 +834,46 @@ a {
     top: 60px;
   }
 
-  /* Legend → compact, top-right, out of the bottom sheet's way */
+  /* Legend → full-width bottom bar so the range slider is finger-friendly.
+     (The school detail sheet, rendered later, slides up over it when open.) */
   .legend {
-    top: 12px;
-    right: 12px;
-    left: auto;
-    bottom: auto;
-    width: min(54vw, 190px);
-    padding: 9px 11px;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: none;
+    border-radius: 14px 14px 0 0;
+    padding: 12px 16px 16px;
   }
   .legend .desc,
   .legend-size {
     display: none;
+  }
+  /* bigger touch targets for the range slider on mobile */
+  .range-filter {
+    margin-top: 12px;
+  }
+  .range-label,
+  .range-vals {
+    font-size: 12.5px;
+  }
+  .range-track {
+    height: 30px;
+  }
+  .range-input {
+    height: 30px;
+  }
+  .range-input::-webkit-slider-thumb {
+    width: 26px;
+    height: 26px;
+  }
+  .range-input::-moz-range-thumb {
+    width: 26px;
+    height: 26px;
+  }
+  .range-reset {
+    font-size: 12.5px;
   }
 
   /* School detail → bottom sheet */
@@ -836,6 +887,41 @@ a {
     max-height: 82dvh;
     border-radius: 16px 16px 0 0;
     box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.5);
+  }
+  /* Peek: collapsed card showing just name · level · city · rating.
+     Tap it (or the legend hides behind it) to expand to the full sheet. */
+  .detail.peek {
+    max-height: none;
+    padding-bottom: 14px;
+    overflow: visible;
+  }
+  .detail.peek .detail-body {
+    display: none;
+  }
+  .detail-head {
+    cursor: pointer;
+    padding-right: 34px;
+  }
+  .peek-badge {
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 11px;
+    font-size: 17px;
+    font-weight: 800;
+    color: #06121a;
+    flex: 0 0 auto;
+  }
+  .detail.peek .peek-hint {
+    display: block;
+    font-size: 11px;
+    color: var(--accent);
+    margin-top: 3px;
+  }
+  /* the head badge already shows the rating, so drop the body's duplicate */
+  .detail-body > .rating-badge {
+    display: none;
   }
   /* draggable grab handle (pull down to dismiss) */
   .detail-handle {

@@ -13,6 +13,8 @@ export default function SchoolDetail({
   onTogglePathway,
   onSelect,
   onClose,
+  expanded,
+  onToggleExpand,
 }: {
   school: School;
   pathway: Pathway | null;
@@ -20,6 +22,8 @@ export default function SchoolDetail({
   onTogglePathway: () => void;
   onSelect: (id: School["id"]) => void;
   onClose: () => void;
+  expanded: boolean;
+  onToggleExpand: () => void;
 }) {
   // Drag-to-dismiss for the mobile bottom sheet (grab the handle and pull down).
   const sheetRef = useRef<HTMLDivElement>(null);
@@ -65,7 +69,7 @@ export default function SchoolDetail({
   ];
 
   return (
-    <div className="detail" ref={sheetRef}>
+    <div className={`detail ${expanded ? "expanded" : "peek"}`} ref={sheetRef}>
       <div
         className="detail-handle"
         onTouchStart={onHandleStart}
@@ -78,35 +82,47 @@ export default function SchoolDetail({
       <button className="close" onClick={onClose} aria-label="Close">
         ×
       </button>
-      <h2>{school.name}</h2>
-      <p className="sub">
-        {school.grades ? `Grades ${school.grades} · ` : ""}
-        {`${levelLabel(school)} · `}
-        {areaLabel}
-        <br />
-        {school.address.full ?? ""}
-        {school.districtName && (
-          <>
-            <br />
-            🏛{" "}
-            {school.districtUrl ? (
-              <a href={school.districtUrl} target="_blank" rel="noreferrer">
-                {school.districtName}
-              </a>
-            ) : (
-              school.districtName
-            )}
-          </>
-        )}
-      </p>
 
-      <span className="rating-badge" style={{ background: ratingColor }}>
-        {school.rating ?? "—"}
-        <span style={{ fontSize: 10, opacity: 0.8 }}>/10</span>
-        <span style={{ fontSize: 10, marginLeft: 4, opacity: 0.8 }}>GreatSchools</span>
-      </span>
+      {/* Tappable header — on mobile this is the collapsed "peek" card */}
+      <div className="detail-head" onClick={onToggleExpand} role="button">
+        <span className="rating-badge peek-badge" style={{ background: ratingColor }}>
+          {school.rating ?? "—"}
+        </span>
+        <div className="detail-head-text">
+          <h2>{school.name}</h2>
+          <p className="sub head-sub">
+            {school.grades ? `Grades ${school.grades} · ` : ""}
+            {levelLabel(school)} · {areaLabel}
+          </p>
+          <span className="peek-hint">Tap for details ›</span>
+        </div>
+      </div>
 
-      <div className="stat-grid">
+      <div className="detail-body">
+        <p className="sub">
+          {school.address.full ?? ""}
+          {school.districtName && (
+            <>
+              <br />
+              🏛{" "}
+              {school.districtUrl ? (
+                <a href={school.districtUrl} target="_blank" rel="noreferrer">
+                  {school.districtName}
+                </a>
+              ) : (
+                school.districtName
+              )}
+            </>
+          )}
+        </p>
+
+        <span className="rating-badge" style={{ background: ratingColor }}>
+          {school.rating ?? "—"}
+          <span style={{ fontSize: 10, opacity: 0.8 }}>/10</span>
+          <span style={{ fontSize: 10, marginLeft: 4, opacity: 0.8 }}>GreatSchools</span>
+        </span>
+
+        <div className="stat-grid">
         {stats.map((s) => (
           <div className="stat" key={s.label}>
             <div className="v">{s.value}</div>
@@ -189,9 +205,10 @@ export default function SchoolDetail({
         </>
       )}
 
-      <a className="gs-link" href={school.url} target="_blank" rel="noreferrer">
-        View full profile on GreatSchools →
-      </a>
+        <a className="gs-link" href={school.url} target="_blank" rel="noreferrer">
+          View full profile on GreatSchools →
+        </a>
+      </div>
     </div>
   );
 }
