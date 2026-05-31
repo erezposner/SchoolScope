@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import {
   MapContainer,
   TileLayer,
@@ -25,31 +25,39 @@ interface Props {
 
 const LEVEL_LETTER: Record<string, string> = { e: "E", m: "M", h: "H" };
 
-// Pan/zoom to the selected school when the selection changes (e.g. from search).
+// Bring a selected school into view ONLY when it's currently off-screen (e.g.
+// picked from search in another city). If it's already visible, leave the view
+// exactly where it is.
 function FlyToSelected({ school }: { school: School | null }) {
   const map = useMap();
   useEffect(() => {
     if (school && school.lat != null && school.lng != null) {
-      map.flyTo([school.lat, school.lng], Math.max(map.getZoom(), 13.5), {
-        duration: 0.7,
-      });
+      const ll: [number, number] = [school.lat, school.lng];
+      if (!map.getBounds().contains(ll)) {
+        map.flyTo(ll, Math.max(map.getZoom(), 12), { duration: 0.6 });
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [school?.id]);
   return null;
 }
 
-// Fit the map to the visible schools whenever the set changes.
-function FitBounds({ schools }: { schools: School[] }) {
+// Fit the map to the schools ONCE on first load, then never auto-move the view
+// again — changing metrics or filters keeps the user's current pan/zoom.
+function FitBoundsOnce({ schools }: { schools: School[] }) {
   const map = useMap();
+  const didFit = useRef(false);
   useEffect(() => {
+    if (didFit.current) return;
     const pts = schools
       .filter((s) => s.lat != null && s.lng != null)
       .map((s) => [s.lat as number, s.lng as number] as [number, number]);
     if (pts.length >= 2) {
       map.fitBounds(pts, { padding: [60, 60], maxZoom: 13 });
+      didFit.current = true;
     } else if (pts.length === 1) {
       map.setView(pts[0], 14);
+      didFit.current = true;
     }
   }, [map, schools]);
   return null;
@@ -117,7 +125,7 @@ export default function MapView({
         url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
       />
 
-      <FitBounds schools={schools} />
+      <FitBoundsOnce schools={schools} />
       <FlyToSelected school={selected} />
 
       {/* District connectors (hub-and-spoke from selected school, by level).
