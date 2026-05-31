@@ -5239,5 +5239,787 @@
       }
     },
     "scrapedAt": "2026-05-31T12:14:45.227Z"
+  },
+  {
+    "id": 5428,
+    "name": "Blue Hills Elementary School",
+    "url": "https://www.greatschools.org/california/saratoga/5428-Blue-Hills-Elementary-School/",
+    "path": "/california/saratoga/5428-Blue-Hills-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/",
+    "address": {
+      "street": "12300 De Sanka Avenue",
+      "city": "Saratoga",
+      "state": "CA",
+      "zip": "95070",
+      "full": "12300 De Sanka Avenue, Saratoga, CA, 95070"
+    },
+    "phone": "(408) 257-9282",
+    "lat": 37.288949,
+    "lng": -122.0245375,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 16.3,
+      "englishLearners": 24.1,
+      "studentsPerTeacher": 23,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 71.9,
+      "White": 11.6,
+      "Two or more races": 5,
+      "Hispanic": 4.2,
+      "Native American": 0.9,
+      "Black": 0.9,
+      "Unspecified": 5
+    },
+    "gender": {
+      "male": 52.4,
+      "female": 47.6
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5444,
+        "name": "John Muir Elementary School",
+        "path": "/california/san-jose/5444-John-Muir-Elementary-School/",
+        "distanceMi": 0.72,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 7.5,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 10.58,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:37:12.058Z"
+  },
+  {
+    "id": 5429,
+    "name": "L. P. Collins Elementary School",
+    "url": "https://www.greatschools.org/california/cupertino/5429-L.-P.-Collins-Elementary-School/",
+    "path": "/california/cupertino/5429-L.-P.-Collins-Elementary-School/",
+    "rating": 8,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/",
+    "address": {
+      "street": "10300 North Blaney Avenue",
+      "city": "Cupertino",
+      "state": "CA",
+      "zip": "95014",
+      "full": "10300 North Blaney Avenue, Cupertino, CA, 95014"
+    },
+    "phone": "(408) 252-6002",
+    "lat": 37.3271564,
+    "lng": -122.0214705,
+    "metrics": {
+      "rating": 8,
+      "lowIncome": 17.1,
+      "englishLearners": 24.5,
+      "studentsPerTeacher": 20,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 75.9,
+      "White": 6.8,
+      "Hispanic": 5.2,
+      "Two or more races": 4.2,
+      "Black": 1.6,
+      "Native American": 0.8,
+      "Filipino": 0.6,
+      "Unspecified": 4
+    },
+    "gender": {
+      "male": 51.8,
+      "female": 48.2
+    },
+    "nearby": {
+      "elementary": {
+        "id": 10862,
+        "name": "Amy Imai Elementary",
+        "path": "/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/",
+        "distanceMi": 4.33,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 14794,
+        "name": "Sam H. Lawson Middle School",
+        "path": "/california/cupertino/14794-Sam-H.-Lawson-Middle-School/",
+        "distanceMi": 0.26,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 9.39,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:37:12.058Z"
+  },
+  {
+    "id": 5431,
+    "name": "Manuel De Vargas Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5431-Manuel-De-Vargas-Elementary-School/",
+    "path": "/california/san-jose/5431-Manuel-De-Vargas-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/",
+    "address": {
+      "street": "5050 Moorpark Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95129",
+      "full": "5050 Moorpark Avenue, San Jose, CA, 95129"
+    },
+    "phone": "(408) 252-0303",
+    "lat": 37.3106722,
+    "lng": -121.9897014,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 44.9,
+      "englishLearners": 36.4,
+      "studentsPerTeacher": 18,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 45.1,
+      "Hispanic": 26.9,
+      "White": 10,
+      "Two or more races": 5,
+      "Filipino": 3.7,
+      "Black": 3.7,
+      "Native American": 1.1,
+      "Pacific Islander": 0.3,
+      "Unspecified": 4
+    },
+    "gender": {
+      "male": 51.7,
+      "female": 48.3
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 5.74,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 6.14,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 8.16,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:37:12.058Z"
+  },
+  {
+    "id": 5432,
+    "name": "Nelson S. Dilworth Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5432-Nelson-S.-Dilworth-Elementary-School/",
+    "path": "/california/san-jose/5432-Nelson-S.-Dilworth-Elementary-School/",
+    "rating": 10,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/",
+    "address": {
+      "street": "1101 Strayer Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95129",
+      "full": "1101 Strayer Drive, San Jose, CA, 95129"
+    },
+    "phone": "(408) 253-2850",
+    "lat": 37.3062862,
+    "lng": -122.0082101,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 19.6,
+      "englishLearners": 26.1,
+      "studentsPerTeacher": 21,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 78.8,
+      "White": 6.8,
+      "Hispanic": 4.2,
+      "Two or more races": 2.6,
+      "Filipino": 0.5,
+      "Black": 0.5,
+      "Pacific Islander": 0.2,
+      "Native American": 0.2,
+      "Unspecified": 5
+    },
+    "gender": {
+      "male": 50.3,
+      "female": 49.7
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5446,
+        "name": "Murdock-Portal Elementary School",
+        "path": "/california/san-jose/5446-Murdock-Portal-Elementary-School/",
+        "distanceMi": 0.54,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5442,
+        "name": "Joaquin Miller Middle School",
+        "path": "/california/san-jose/5442-Joaquin-Miller-Middle-School/",
+        "distanceMi": 0.42,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5499,
+        "name": "Lynbrook High School",
+        "path": "/california/san-jose/5499-Lynbrook-High-School/",
+        "distanceMi": 0.38,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:37:12.058Z"
+  },
+  {
+    "id": 5433,
+    "name": "C. B. Eaton Elementary School",
+    "url": "https://www.greatschools.org/california/cupertino/5433-C.-B.-Eaton-Elementary-School/",
+    "path": "/california/cupertino/5433-C.-B.-Eaton-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/",
+    "address": {
+      "street": "20220 Suisun Drive",
+      "city": "Cupertino",
+      "state": "CA",
+      "zip": "95014",
+      "full": "20220 Suisun Drive, Cupertino, CA, 95014"
+    },
+    "phone": "(408) 255-2848",
+    "lat": 37.3145109,
+    "lng": -122.025865,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 15.7,
+      "englishLearners": 28.6,
+      "studentsPerTeacher": 21,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 74,
+      "White": 10,
+      "Two or more races": 4.1,
+      "Hispanic": 3.9,
+      "Black": 0.6,
+      "Filipino": 0.4,
+      "Native American": 0.2,
+      "Unspecified": 7
+    },
+    "gender": {
+      "male": 55.6,
+      "female": 44.4
+    },
+    "nearby": {
+      "elementary": {
+        "id": 10862,
+        "name": "Amy Imai Elementary",
+        "path": "/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/",
+        "distanceMi": 4.95,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 5.76,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 9.85,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:37:12.058Z"
+  },
+  {
+    "id": 5434,
+    "name": "Dwight D. Eisenhower Elementary School",
+    "url": "https://www.greatschools.org/california/santa-clara/5434-Dwight-D.-Eisenhower-Elementary-School/",
+    "path": "/california/santa-clara/5434-Dwight-D.-Eisenhower-Elementary-School/",
+    "rating": 8,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/",
+    "address": {
+      "street": "277 Rodonovan Drive",
+      "city": "Santa Clara",
+      "state": "CA",
+      "zip": "95051",
+      "full": "277 Rodonovan Drive, Santa Clara, CA, 95051"
+    },
+    "phone": "(408) 248-4313",
+    "lat": 37.328917,
+    "lng": -121.989474,
+    "metrics": {
+      "rating": 8,
+      "lowIncome": 28.3,
+      "englishLearners": 29.4,
+      "studentsPerTeacher": 20,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 58.7,
+      "Hispanic": 14.3,
+      "White": 12.8,
+      "Two or more races": 5.3,
+      "Filipino": 2,
+      "Native American": 0.7,
+      "Black": 0.7,
+      "Pacific Islander": 0.4,
+      "Unspecified": 5
+    },
+    "gender": {
+      "male": 53.2,
+      "female": 46.4
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5644,
+        "name": "Sutter Elementary School",
+        "path": "/california/santa-clara/5644-Sutter-Elementary-School/",
+        "distanceMi": 0.33,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 4.93,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 7.55,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:37:12.058Z"
+  },
+  {
+    "id": 5440,
+    "name": "Christa McAuliffe Elementary School",
+    "url": "https://www.greatschools.org/california/saratoga/5440-Christa-McAuliffe-Elementary-School/",
+    "path": "/california/saratoga/5440-Christa-McAuliffe-Elementary-School/",
+    "rating": 9,
+    "level": "e,m",
+    "type": "public",
+    "grades": "K-8",
+    "district": "631",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/",
+    "address": {
+      "street": "12211 Titus Avenue",
+      "city": "Saratoga",
+      "state": "CA",
+      "zip": "95070",
+      "full": "12211 Titus Avenue, Saratoga, CA, 95070"
+    },
+    "phone": "(408) 253-4696",
+    "lat": 37.2921436,
+    "lng": -122.0105203,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 9.8,
+      "englishLearners": 11.5,
+      "studentsPerTeacher": 22,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 42.5,
+      "White": 32.7,
+      "Two or more races": 8.9,
+      "Hispanic": 8.7,
+      "Filipino": 1.1,
+      "Black": 0.3,
+      "Unspecified": 6
+    },
+    "gender": {
+      "male": 51.1,
+      "female": 48.9
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5444,
+        "name": "John Muir Elementary School",
+        "path": "/california/san-jose/5444-John-Muir-Elementary-School/",
+        "distanceMi": 0.71,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5442,
+        "name": "Joaquin Miller Middle School",
+        "path": "/california/san-jose/5442-Joaquin-Miller-Middle-School/",
+        "distanceMi": 0.71,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5426,
+        "name": "Prospect High School",
+        "path": "/california/saratoga/5426-Prospect-High-School/",
+        "distanceMi": 0.55,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:37:12.058Z"
+  },
+  {
+    "id": 5444,
+    "name": "John Muir Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5444-John-Muir-Elementary-School/",
+    "path": "/california/san-jose/5444-John-Muir-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/",
+    "address": {
+      "street": "6560 Hanover Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95129",
+      "full": "6560 Hanover Drive, San Jose, CA, 95129"
+    },
+    "phone": "(408) 252-5265",
+    "lat": 37.2989459,
+    "lng": -122.0193431,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 8.8,
+      "englishLearners": 16.9,
+      "studentsPerTeacher": 17,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 77.4,
+      "Two or more races": 10.1,
+      "White": 1.3,
+      "Filipino": 0.9,
+      "Hispanic": 0.5,
+      "Black": 0.2,
+      "Pacific Islander": 0.2,
+      "Unspecified": 10
+    },
+    "gender": {
+      "male": 49.9,
+      "female": 50.1
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5440,
+        "name": "Christa McAuliffe Elementary School",
+        "path": "/california/saratoga/5440-Christa-McAuliffe-Elementary-School/",
+        "distanceMi": 0.71,
+        "type": "Public district",
+        "grades": "K-8"
+      },
+      "middle": {
+        "id": 5442,
+        "name": "Joaquin Miller Middle School",
+        "path": "/california/san-jose/5442-Joaquin-Miller-Middle-School/",
+        "distanceMi": 0.47,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 10.02,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:37:12.058Z"
+  },
+  {
+    "id": 5445,
+    "name": "Chester W. Nimitz Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5445-Chester-W.-Nimitz-Elementary-School/",
+    "path": "/california/sunnyvale/5445-Chester-W.-Nimitz-Elementary-School/",
+    "rating": 6,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/",
+    "address": {
+      "street": "545 Cheyenne Drive",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94087",
+      "full": "545 Cheyenne Drive, Sunnyvale, CA, 94087"
+    },
+    "phone": "(408) 736-2180",
+    "lat": 37.3475771,
+    "lng": -122.0357763,
+    "metrics": {
+      "rating": 6,
+      "lowIncome": 50.6,
+      "englishLearners": 41.7,
+      "studentsPerTeacher": 20,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 38.3,
+      "Asian": 30.6,
+      "White": 13.1,
+      "Filipino": 4.3,
+      "Two or more races": 3.4,
+      "Black": 2.9,
+      "Pacific Islander": 0.3,
+      "Unspecified": 8
+    },
+    "gender": {
+      "male": 49.7,
+      "female": 50.3
+    },
+    "nearby": {
+      "elementary": {
+        "id": 10862,
+        "name": "Amy Imai Elementary",
+        "path": "/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/",
+        "distanceMi": 2.83,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 3.62,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 25818,
+        "name": "North County Regional Occupational Program School",
+        "path": "/california/sunnyvale/25818-North-County-Regional-Occupational-Program-School/",
+        "distanceMi": 0.37,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:37:12.058Z"
+  },
+  {
+    "id": 5446,
+    "name": "Murdock-Portal Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5446-Murdock-Portal-Elementary-School/",
+    "path": "/california/san-jose/5446-Murdock-Portal-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/",
+    "address": {
+      "street": "1188 Wunderlich Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95129",
+      "full": "1188 Wunderlich Drive, San Jose, CA, 95129"
+    },
+    "phone": "(408) 973-8191",
+    "lat": 37.3037297,
+    "lng": -121.9980753,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 8.5,
+      "englishLearners": 21.4,
+      "studentsPerTeacher": 22,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 86.6,
+      "Two or more races": 2.9,
+      "White": 1.1,
+      "Hispanic": 0.7,
+      "Filipino": 0.4,
+      "Pacific Islander": 0.2,
+      "Native American": 0.2,
+      "Unspecified": 8
+    },
+    "gender": {
+      "male": 55.2,
+      "female": 44.8
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5432,
+        "name": "Nelson S. Dilworth Elementary School",
+        "path": "/california/san-jose/5432-Nelson-S.-Dilworth-Elementary-School/",
+        "distanceMi": 0.54,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 6.5,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 5499,
+        "name": "Lynbrook High School",
+        "path": "/california/san-jose/5499-Lynbrook-High-School/",
+        "distanceMi": 0.45,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:37:12.058Z"
+  },
+  {
+    "id": 5448,
+    "name": "D. J. Sedgwick Elementary School",
+    "url": "https://www.greatschools.org/california/cupertino/5448-D.-J.-Sedgwick-Elementary-School/",
+    "path": "/california/cupertino/5448-D.-J.-Sedgwick-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/",
+    "address": {
+      "street": "19200 Phil Lane",
+      "city": "Cupertino",
+      "state": "CA",
+      "zip": "95014",
+      "full": "19200 Phil Lane, Cupertino, CA, 95014"
+    },
+    "phone": "(408) 252-3103",
+    "lat": 37.3149579,
+    "lng": -122.009014,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 27,
+      "englishLearners": 25.8,
+      "studentsPerTeacher": 19,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 71.5,
+      "Hispanic": 8.1,
+      "White": 7.6,
+      "Two or more races": 4.2,
+      "Filipino": 1.7,
+      "Native American": 0.7,
+      "Pacific Islander": 0.2,
+      "Unspecified": 6
+    },
+    "gender": {
+      "male": 53.6,
+      "female": 46.4
+    },
+    "nearby": {
+      "elementary": {
+        "id": 10862,
+        "name": "Amy Imai Elementary",
+        "path": "/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/",
+        "distanceMi": 5.48,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5437,
+        "name": "Warren E. Hyde Middle School",
+        "path": "/california/cupertino/5437-Warren-E.-Hyde-Middle-School/",
+        "distanceMi": 0.29,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5496,
+        "name": "Cupertino High School",
+        "path": "/california/cupertino/5496-Cupertino-High-School/",
+        "distanceMi": 0.3,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T12:37:12.058Z"
   }
 ]

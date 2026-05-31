@@ -100,28 +100,38 @@ export default function MapView({
         }))
       : [];
 
+  // On the light basemap, markers get a crisp dark outline for definition;
+  // pathway nodes keep their level colour, the selected one a bold dark ring.
   const ringColor = (id: string, isSel: boolean) =>
-    isSel ? "#ffffff" : colorById.get(id) ?? "rgba(255,255,255,0.55)";
+    isSel ? "#0f172a" : colorById.get(id) ?? "rgba(15,23,42,0.45)";
 
   return (
     <MapContainer center={DEFAULT_CENTER} zoom={DEFAULT_ZOOM} scrollWheelZoom>
       <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &middot; data: GreatSchools.org'
-        url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a> &middot; data: GreatSchools.org'
+        url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
       />
 
       <FitBounds schools={schools} />
       <FlyToSelected school={selected} />
 
-      {/* District connectors (hub-and-spoke from selected school, by level) */}
+      {/* District connectors (hub-and-spoke from selected school, by level).
+          A soft white casing keeps the coloured dashes legible on the light map. */}
+      {spokes.map(({ seg }, i) => (
+        <Polyline
+          key={`spoke-casing-${i}`}
+          positions={seg}
+          pathOptions={{ color: "#ffffff", weight: 4.5, opacity: 0.6, lineCap: "round" }}
+        />
+      ))}
       {spokes.map(({ seg, color }, i) => (
         <Polyline
           key={`spoke-${i}`}
           positions={seg}
           pathOptions={{
             color,
-            weight: 1.8,
-            opacity: 0.7,
+            weight: 2.4,
+            opacity: 0.95,
             dashArray: "1 7",
             lineCap: "round",
           }}

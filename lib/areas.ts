@@ -29,13 +29,13 @@ export const AREAS: AreaDef[] = [
     key: "cupertino",
     label: "Cupertino / West Valley",
     color: "#0891b2",
-    bounds: [37.295, -122.085, 37.355, -121.995],
+    bounds: [37.285, -122.085, 37.355, -121.995],
   },
   {
     key: "westsanjose",
     label: "West San Jose",
     color: "#db2777",
-    bounds: [37.27, -122.0, 37.32, -121.928],
+    bounds: [37.27, -122.0, 37.335, -121.928],
   },
   {
     key: "cambrian",

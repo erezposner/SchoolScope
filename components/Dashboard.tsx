@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import type { School } from "@/lib/types";
 import { METRIC_BY_KEY } from "@/lib/metrics";
@@ -56,6 +56,34 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
   function selectSchool(id: School["id"] | null) {
     setSelectedId(id);
     setControlsOpen(false);
+  }
+
+  // Back-button handling: while a school sheet is open, the browser/Android
+  // Back button should close the sheet instead of leaving the site. We push one
+  // history entry when a sheet opens and pop it (close) on `popstate`.
+  const pushedHistory = useRef(false);
+  useEffect(() => {
+    if (selectedId == null) return;
+    if (!pushedHistory.current) {
+      window.history.pushState({ schoolSheet: true }, "");
+      pushedHistory.current = true;
+    }
+    const onPop = () => {
+      pushedHistory.current = false; // browser already popped our entry
+      setSelectedId(null);
+    };
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, [selectedId]);
+
+  // Close from the UI (×, drag, backdrop) — also consume the pushed history
+  // entry so the Back button stays in sync.
+  function closeSchool() {
+    if (pushedHistory.current) {
+      pushedHistory.current = false;
+      window.history.back();
+    }
+    setSelectedId(null);
   }
 
   const selected = useMemo(
@@ -159,7 +187,7 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
             showPathway={showPathway}
             onTogglePathway={() => setShowPathway((v) => !v)}
             onSelect={selectSchool}
-            onClose={() => setSelectedId(null)}
+            onClose={closeSchool}
           />
         )}
       </div>

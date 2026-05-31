@@ -59,7 +59,7 @@ a {
 .leaflet-container {
   height: 100%;
   width: 100%;
-  background: #0b1220;
+  background: #e8e6e1;
 }
 
 /* ---- Header ---- */
@@ -626,7 +626,8 @@ a {
 /* ============================================================= */
 .mobile-fab,
 .sidebar-close,
-.drawer-backdrop {
+.drawer-backdrop,
+.detail-handle {
   display: none;
 }
 
@@ -744,13 +745,25 @@ a {
     border-radius: 16px 16px 0 0;
     box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.5);
   }
-  .detail::before {
-    content: "";
+  /* draggable grab handle (pull down to dismiss) */
+  .detail-handle {
     display: block;
-    width: 40px;
-    height: 4px;
-    border-radius: 2px;
+    padding: 9px 0 7px;
+    margin: -6px -16px 4px;
+    touch-action: none;
+    cursor: grab;
+  }
+  .detail-grabber {
+    display: block;
+    width: 42px;
+    height: 5px;
+    border-radius: 3px;
     background: var(--border);
-    margin: -4px auto 12px;
+    margin: 0 auto;
+  }
+  .detail .close {
+    /* lift the close button above the handle's touch zone */
+    z-index: 2;
+    font-size: 22px;
   }
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import { useRef } from "react";
 import type { School } from "@/lib/types";
 import { colorFor, demoColor, METRIC_BY_KEY } from "@/lib/metrics";
 import { AREA_BY_KEY, areaForSchool } from "@/lib/areas";
@@ -22,6 +23,35 @@ export default function SchoolDetail({
   onSelect: (id: School["id"]) => void;
   onClose: () => void;
 }) {
+  // Drag-to-dismiss for the mobile bottom sheet (grab the handle and pull down).
+  const sheetRef = useRef<HTMLDivElement>(null);
+  const drag = useRef({ startY: 0, dy: 0, active: false });
+
+  function onHandleStart(e: React.TouchEvent) {
+    if (!window.matchMedia("(max-width: 820px)").matches) return;
+    drag.current = { startY: e.touches[0].clientY, dy: 0, active: true };
+    if (sheetRef.current) sheetRef.current.style.transition = "none";
+  }
+  function onHandleMove(e: React.TouchEvent) {
+    const d = drag.current;
+    if (!d.active) return;
+    d.dy = Math.max(0, e.touches[0].clientY - d.startY);
+    if (sheetRef.current) sheetRef.current.style.transform = `translateY(${d.dy}px)`;
+  }
+  function onHandleEnd() {
+    const d = drag.current;
+    if (!d.active || !sheetRef.current) return;
+    d.active = false;
+    const el = sheetRef.current;
+    el.style.transition = "transform 0.2s ease";
+    if (d.dy > 110) {
+      el.style.transform = "translateY(100%)";
+      window.setTimeout(onClose, 190);
+    } else {
+      el.style.transform = "";
+    }
+  }
+
   const area = AREA_BY_KEY[areaForSchool(school)];
   const ratingColor = colorFor(METRIC_BY_KEY.rating, school.rating, 1);
 
@@ -37,7 +67,16 @@ export default function SchoolDetail({
   ];
 
   return (
-    <div className="detail">
+    <div className="detail" ref={sheetRef}>
+      <div
+        className="detail-handle"
+        onTouchStart={onHandleStart}
+        onTouchMove={onHandleMove}
+        onTouchEnd={onHandleEnd}
+        aria-hidden="true"
+      >
+        <span className="detail-grabber" />
+      </div>
       <button className="close" onClick={onClose} aria-label="Close">
         ×
       </button>
