@@ -6,6 +6,18 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 export async function POST(req: Request) {
+  // The scraper writes to the repo's data file, which only works on a writable
+  // (local/dev) filesystem. The hosted build is read-only, so refuse there.
+  if (process.env.NODE_ENV === "production") {
+    return NextResponse.json(
+      {
+        error:
+          "Live scraping is disabled on the hosted site (read-only). Run the scraper locally (npm run scrape) and push to update the data.",
+      },
+      { status: 503 },
+    );
+  }
+
   let url: string;
   try {
     ({ url } = await req.json());

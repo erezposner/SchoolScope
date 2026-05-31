@@ -122,7 +122,11 @@ export default function ControlPanel(props: Props) {
         ))}
       </div>
 
-      <AddSchool onSchoolAdded={onSchoolAdded} />
+      {/* Live scraping writes to disk, which only works locally — the hosted
+          (read-only) build omits this; update data via the scraper + a push. */}
+      {process.env.NODE_ENV !== "production" && (
+        <AddSchool onSchoolAdded={onSchoolAdded} />
+      )}
 
       <div className="footnote">
         Data scraped live from GreatSchools.org (CA Dept. of Education, 2025). Ratings 1–10.

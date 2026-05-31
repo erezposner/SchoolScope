@@ -64,8 +64,20 @@ and upserts the result — so "press a new school in the map" works end to end.
 
 ## Stack
 
-Next.js 14 (App Router) · React 18 · React-Leaflet + Leaflet.heat · CARTO dark basemap.
-Zero API keys required. Deployable to Vercel as-is.
+Next.js 14 (App Router) · React 18 · React-Leaflet · CARTO dark basemap. Zero API keys
+required.
+
+## Deploy (Vercel)
+
+The home page is statically prerendered from the committed `data/schools.json`, so it hosts
+on Vercel with zero config. Because Vercel functions have a **read-only filesystem**, the
+live "Add a school" form and the `/api/scrape` route are **disabled in production** (they
+work locally in `npm run dev`). To add schools to the live site:
+
+```bash
+node scripts/scrape-school.mjs "<greatschools-url>"   # writes data/schools.json
+git commit -am "data: add <school>" && git push       # Vercel auto-redeploys
+```
 
 ## Notes
 
