@@ -6,9 +6,13 @@ import { type MetricDef, rampGradient } from "@/lib/metrics";
 export default function Legend({
   metric,
   schools,
+  range,
+  onRangeChange,
 }: {
   metric: MetricDef;
   schools: School[];
+  range: [number, number];
+  onRangeChange: (r: [number, number]) => void;
 }) {
   const values = schools
     .map((s) => metric.accessor(s))
@@ -18,6 +22,10 @@ export default function Legend({
       ? Math.round((values.reduce((a, b) => a + b, 0) / values.length) * 10) / 10
       : null;
   const [min, max] = metric.domain;
+  const [rmin, rmax] = range;
+  const step = max - min <= 20 ? 1 : Math.max(1, Math.round((max - min) / 50));
+  const filtered = rmin > min || rmax < max;
+  const pct = (v: number) => ((v - min) / (max - min)) * 100;
 
   return (
     <div className="legend">
@@ -38,6 +46,55 @@ export default function Legend({
           {metric.unit} {metric.higherIsBetter ? "· best ✓" : "· high"}
         </span>
       </div>
+
+      {/* Range filter — show only schools whose value falls in [rmin, rmax] */}
+      <div className="range-row">
+        <span className="range-label">Filter</span>
+        <div className="range-track">
+          <div
+            className="range-fill"
+            style={{ left: `${pct(rmin)}%`, right: `${100 - pct(rmax)}%` }}
+          />
+          <input
+            type="range"
+            className="range-input"
+            min={min}
+            max={max}
+            step={step}
+            value={rmin}
+            aria-label={`Minimum ${metric.label}`}
+            onChange={(e) =>
+              onRangeChange([Math.min(+e.target.value, rmax), rmax])
+            }
+          />
+          <input
+            type="range"
+            className="range-input"
+            min={min}
+            max={max}
+            step={step}
+            value={rmax}
+            aria-label={`Maximum ${metric.label}`}
+            onChange={(e) =>
+              onRangeChange([rmin, Math.max(+e.target.value, rmin)])
+            }
+          />
+        </div>
+        <span className="range-vals">
+          {metric.format(rmin)}–{metric.format(rmax)}
+        </span>
+        {filtered && (
+          <button
+            className="range-reset"
+            onClick={() => onRangeChange([min, max])}
+            aria-label="Reset filter"
+            title="Reset filter"
+          >
+            ×
+          </button>
+        )}
+      </div>
+
       <div className="legend-size">
         <span className="dot sm" />
         <span className="dot md" />
@@ -52,6 +109,7 @@ export default function Legend({
             · avg <b style={{ color: "#e5e7eb" }}>{metric.format(avg)}</b>
           </>
         )}
+        {filtered && <span style={{ color: "#38bdf8" }}> · filtered</span>}
       </div>
     </div>
   );

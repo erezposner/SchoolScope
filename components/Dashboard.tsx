@@ -33,15 +33,27 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
 
   const metric = METRIC_BY_KEY[metricKey];
 
-  const visible = useMemo(
-    () =>
-      schools.filter((s) => {
-        if (!activeAreas.has(areaForSchool(s))) return false;
-        const ls = levelsOf(s);
-        return ls.length === 0 || ls.some((l) => activeLevels.has(l));
-      }),
-    [schools, activeAreas, activeLevels],
-  );
+  // Value-range filter for the active metric (driven by the legend slider).
+  // Resets to the metric's full domain whenever the metric changes.
+  const [range, setRange] = useState<[number, number]>(metric.domain);
+  useEffect(() => {
+    setRange(METRIC_BY_KEY[metricKey].domain);
+  }, [metricKey]);
+
+  const visible = useMemo(() => {
+    const [rmin, rmax] = range;
+    const full = rmin <= metric.domain[0] && rmax >= metric.domain[1];
+    return schools.filter((s) => {
+      if (!activeAreas.has(areaForSchool(s))) return false;
+      const ls = levelsOf(s);
+      if (ls.length > 0 && !ls.some((l) => activeLevels.has(l))) return false;
+      if (!full) {
+        const v = metric.accessor(s);
+        if (v == null || v < rmin || v > rmax) return false;
+      }
+      return true;
+    });
+  }, [schools, activeAreas, activeLevels, metric, range]);
 
   // District family / feeder connections are opt-in — hidden until the user
   // clicks "Show" in the detail panel, so selecting a school stays uncluttered.
@@ -177,7 +189,12 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
           onSelect={selectSchool}
           pathway={pathway}
         />
-        <Legend metric={metric} schools={visible} />
+        <Legend
+          metric={metric}
+          schools={visible}
+          range={range}
+          onRangeChange={setRange}
+        />
         {selected && (
           <SchoolDetail
             school={selected}
