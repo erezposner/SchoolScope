@@ -899,8 +899,9 @@ a {
     display: none;
   }
   .detail-head {
-    cursor: pointer;
+    cursor: grab;
     padding-right: 34px;
+    touch-action: none;
   }
   .peek-badge {
     display: grid;

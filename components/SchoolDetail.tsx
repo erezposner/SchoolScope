@@ -25,20 +25,28 @@ export default function SchoolDetail({
   expanded: boolean;
   onToggleExpand: () => void;
 }) {
-  // Drag-to-dismiss for the mobile bottom sheet (grab the handle and pull down).
+  // Touch gestures for the mobile bottom sheet:
+  //   peek + swipe up      → expand
+  //   expanded + swipe down → collapse to peek
+  //   peek + swipe down     → dismiss
+  // A near-zero move is treated as a tap (handled by the header onClick).
   const sheetRef = useRef<HTMLDivElement>(null);
-  const drag = useRef({ startY: 0, dy: 0, active: false });
+  const drag = useRef({ startY: 0, dy: 0, active: false, moved: false });
 
   function onHandleStart(e: React.TouchEvent) {
     if (!window.matchMedia("(max-width: 820px)").matches) return;
-    drag.current = { startY: e.touches[0].clientY, dy: 0, active: true };
+    drag.current = { startY: e.touches[0].clientY, dy: 0, active: true, moved: false };
     if (sheetRef.current) sheetRef.current.style.transition = "none";
   }
   function onHandleMove(e: React.TouchEvent) {
     const d = drag.current;
     if (!d.active) return;
-    d.dy = Math.max(0, e.touches[0].clientY - d.startY);
-    if (sheetRef.current) sheetRef.current.style.transform = `translateY(${d.dy}px)`;
+    d.dy = e.touches[0].clientY - d.startY;
+    if (Math.abs(d.dy) > 6) d.moved = true;
+    // only follow the finger on downward drags (upward expansion is on release)
+    if (sheetRef.current) {
+      sheetRef.current.style.transform = d.dy > 0 ? `translateY(${d.dy}px)` : "";
+    }
   }
   function onHandleEnd() {
     const d = drag.current;
@@ -46,12 +54,21 @@ export default function SchoolDetail({
     d.active = false;
     const el = sheetRef.current;
     el.style.transition = "transform 0.2s ease";
-    if (d.dy > 110) {
-      el.style.transform = "translateY(100%)";
-      window.setTimeout(onClose, 190);
-    } else {
-      el.style.transform = "";
+    el.style.transform = "";
+    if (d.dy > 90) {
+      if (expanded) onToggleExpand(); // collapse to peek
+      else {
+        el.style.transform = "translateY(100%)";
+        window.setTimeout(onClose, 190); // dismiss
+      }
+    } else if (d.dy < -45 && !expanded) {
+      onToggleExpand(); // swipe up → expand
     }
+  }
+  // Tap (no real drag) toggles expand/collapse.
+  function onHeadClick() {
+    if (drag.current.moved) return;
+    onToggleExpand();
   }
 
   const areaLabel = areaForSchool(school);
@@ -83,8 +100,15 @@ export default function SchoolDetail({
         ×
       </button>
 
-      {/* Tappable header — on mobile this is the collapsed "peek" card */}
-      <div className="detail-head" onClick={onToggleExpand} role="button">
+      {/* Header — tap or swipe up to expand, swipe down to collapse/dismiss */}
+      <div
+        className="detail-head"
+        onClick={onHeadClick}
+        onTouchStart={onHandleStart}
+        onTouchMove={onHandleMove}
+        onTouchEnd={onHandleEnd}
+        role="button"
+      >
         <span className="rating-badge peek-badge" style={{ background: ratingColor }}>
           {school.rating ?? "—"}
         </span>
@@ -94,7 +118,7 @@ export default function SchoolDetail({
             {school.grades ? `Grades ${school.grades} · ` : ""}
             {levelLabel(school)} · {areaLabel}
           </p>
-          <span className="peek-hint">Tap for details ›</span>
+          <span className="peek-hint">Swipe up or tap for details ›</span>
         </div>
       </div>
 
