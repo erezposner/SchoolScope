@@ -1,0 +1,5034 @@
+[
+  {
+    "id": 5451,
+    "name": "West Valley Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5451-West-Valley-Elementary-School/",
+    "path": "/california/sunnyvale/5451-West-Valley-Elementary-School/",
+    "rating": 10,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "address": {
+      "street": "1635 Belleville Way",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94087",
+      "full": "1635 Belleville Way, Sunnyvale, CA, 94087"
+    },
+    "phone": "(408) 245-0148",
+    "lat": 37.3410106,
+    "lng": -122.062276,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 16.1,
+      "englishLearners": 20.1,
+      "studentsPerTeacher": 24,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 52.6,
+      "White": 25.8,
+      "Two or more races": 7.8,
+      "Hispanic": 5.9,
+      "Filipino": 3.3,
+      "Native American": 0.5,
+      "Black": 0.2,
+      "Unspecified": 4
+    },
+    "gender": {
+      "male": 61.4,
+      "female": 38.6
+    },
+    "nearby": {
+      "elementary": {
+        "id": 10862,
+        "name": "Amy Imai Elementary",
+        "path": "/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/",
+        "distanceMi": 2.4,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5430,
+        "name": "Cupertino Middle School",
+        "path": "/california/sunnyvale/5430-Cupertino-Middle-School/",
+        "distanceMi": 0.26,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5498,
+        "name": "Homestead High School",
+        "path": "/california/cupertino/5498-Homestead-High-School/",
+        "distanceMi": 0.85,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/"
+  },
+  {
+    "id": 5628,
+    "name": "Braly Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5628-Braly-Elementary-School/",
+    "path": "/california/sunnyvale/5628-Braly-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "654",
+    "address": {
+      "street": "675 Gail Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94086",
+      "full": "675 Gail Avenue, Sunnyvale, CA, 94086"
+    },
+    "phone": "(408) 423-1000",
+    "lat": 37.3640314,
+    "lng": -122.018153,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 34.4,
+      "englishLearners": 41.7,
+      "studentsPerTeacher": 15,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 39.4,
+      "Hispanic": 36.5,
+      "White": 14.2,
+      "Two or more races": 4.2,
+      "Filipino": 3.4,
+      "Black": 1,
+      "Native American": 0.8,
+      "Pacific Islander": 0.3,
+      "Unspecified": 2
+    },
+    "gender": {
+      "male": 55.1,
+      "female": 44.9
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5704,
+        "name": "Ellis Elementary School",
+        "path": "/california/sunnyvale/5704-Ellis-Elementary-School/",
+        "distanceMi": 0.49,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 2.28,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 8.71,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Santa Clara Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/santa-clara/santa-clara-unified-school-district/"
+  },
+  {
+    "id": 5641,
+    "name": "Ponderosa Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5641-Ponderosa-Elementary-School/",
+    "path": "/california/sunnyvale/5641-Ponderosa-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "654",
+    "address": {
+      "street": "804 Ponderosa Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94086",
+      "full": "804 Ponderosa Avenue, Sunnyvale, CA, 94086"
+    },
+    "phone": "(408) 423-4000",
+    "lat": 37.3635732,
+    "lng": -122.0096359,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 30.2,
+      "englishLearners": 32.4,
+      "studentsPerTeacher": 16,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 35.9,
+      "Hispanic": 35.9,
+      "White": 16.8,
+      "Two or more races": 5.9,
+      "Filipino": 2.9,
+      "Native American": 1.3,
+      "Black": 1,
+      "Pacific Islander": 0.2
+    },
+    "gender": {
+      "male": 53.8,
+      "female": 46.2
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5628,
+        "name": "Braly Elementary School",
+        "path": "/california/sunnyvale/5628-Braly-Elementary-School/",
+        "distanceMi": 0.56,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5639,
+        "name": "Marian A. Peterson Middle School",
+        "path": "/california/sunnyvale/5639-Marian-A.-Peterson-Middle-School/",
+        "distanceMi": 0.91,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5638,
+        "name": "New Valley Continuation High School",
+        "path": "/california/santa-clara/5638-New-Valley-Continuation-High-School/",
+        "distanceMi": 0.83,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Santa Clara Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/santa-clara/santa-clara-unified-school-district/"
+  },
+  {
+    "id": 5700,
+    "name": "Bishop Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5700-Bishop-Elementary-School/",
+    "path": "/california/sunnyvale/5700-Bishop-Elementary-School/",
+    "rating": 7,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "656",
+    "address": {
+      "street": "450 North Sunnyvale Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94085",
+      "full": "450 North Sunnyvale Avenue, Sunnyvale, CA, 94085"
+    },
+    "phone": "(408) 522-8229",
+    "lat": 37.386636,
+    "lng": -122.0253076,
+    "metrics": {
+      "rating": 7,
+      "lowIncome": 50.8,
+      "englishLearners": 39.6,
+      "studentsPerTeacher": 18,
+      "pctCertifiedTeachers": 95
+    },
+    "demographics": {
+      "Hispanic": 69,
+      "Asian": 8.8,
+      "White": 8.4,
+      "Two or more races": 5.2,
+      "Filipino": 4.9,
+      "Black": 1.7,
+      "Pacific Islander": 1.5,
+      "Native American": 0.4
+    },
+    "gender": {
+      "male": 50.1,
+      "female": 49.9
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5707,
+        "name": "San Miguel Elementary School",
+        "path": "/california/sunnyvale/5707-San-Miguel-Elementary-School/",
+        "distanceMi": 0.88,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5702,
+        "name": "Columbia Middle School",
+        "path": "/california/sunnyvale/5702-Columbia-Middle-School/",
+        "distanceMi": 0.55,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 9.13,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Sunnyvale School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/sunnyvale-school-district/"
+  },
+  {
+    "id": 5701,
+    "name": "Cherry Chase Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5701-Cherry-Chase-Elementary-School/",
+    "path": "/california/sunnyvale/5701-Cherry-Chase-Elementary-School/",
+    "rating": 10,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "656",
+    "address": {
+      "street": "1138 Heatherstone Way",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94087",
+      "full": "1138 Heatherstone Way, Sunnyvale, CA, 94087"
+    },
+    "phone": "(408) 522-8241",
+    "lat": 37.3669738,
+    "lng": -122.0570595,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 7.4,
+      "englishLearners": 20.4,
+      "studentsPerTeacher": 22,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 54,
+      "White": 23.8,
+      "Hispanic": 10.6,
+      "Two or more races": 10.1,
+      "Filipino": 0.6,
+      "Black": 0.5,
+      "Pacific Islander": 0.2,
+      "Native American": 0.2
+    },
+    "gender": {
+      "male": 52.3,
+      "female": 47.7
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5703,
+        "name": "Cumberland Elementary School",
+        "path": "/california/sunnyvale/5703-Cumberland-Elementary-School/",
+        "distanceMi": 0.7,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5708,
+        "name": "Sunnyvale Middle School",
+        "path": "/california/sunnyvale/5708-Sunnyvale-Middle-School/",
+        "distanceMi": 0.37,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5579,
+        "name": "Alta Vista High School",
+        "path": "/california/mountain-view/5579-Alta-Vista-High-School/",
+        "distanceMi": 0.56,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Sunnyvale School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/sunnyvale-school-district/"
+  },
+  {
+    "id": 5702,
+    "name": "Columbia Middle School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5702-Columbia-Middle-School/",
+    "path": "/california/sunnyvale/5702-Columbia-Middle-School/",
+    "rating": 6,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "656",
+    "address": {
+      "street": "739 Morse Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94085",
+      "full": "739 Morse Avenue, Sunnyvale, CA, 94085"
+    },
+    "phone": "(408) 522-8247",
+    "lat": 37.393859,
+    "lng": -122.0202499,
+    "metrics": {
+      "rating": 6,
+      "lowIncome": 40.5,
+      "englishLearners": 28.4,
+      "studentsPerTeacher": 19,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 53.9,
+      "White": 15.6,
+      "Filipino": 9.2,
+      "Asian": 8.3,
+      "Two or more races": 7.2,
+      "Native American": 2.9,
+      "Pacific Islander": 2,
+      "Black": 0.9
+    },
+    "gender": {
+      "male": 52.9,
+      "female": 46.8
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5700,
+        "name": "Bishop Elementary School",
+        "path": "/california/sunnyvale/5700-Bishop-Elementary-School/",
+        "distanceMi": 0.55,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 0.34,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 8.99,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Sunnyvale School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/sunnyvale-school-district/"
+  },
+  {
+    "id": 5703,
+    "name": "Cumberland Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5703-Cumberland-Elementary-School/",
+    "path": "/california/sunnyvale/5703-Cumberland-Elementary-School/",
+    "rating": 10,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "656",
+    "address": {
+      "street": "824 Cumberland Drive",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94087",
+      "full": "824 Cumberland Drive, Sunnyvale, CA, 94087"
+    },
+    "phone": "(408) 522-8255",
+    "lat": 37.3665255,
+    "lng": -122.0437173,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 10.8,
+      "englishLearners": 18.4,
+      "studentsPerTeacher": 24,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 40.4,
+      "White": 32.8,
+      "Hispanic": 14.7,
+      "Two or more races": 9,
+      "Filipino": 1,
+      "Black": 1,
+      "Pacific Islander": 0.7,
+      "Native American": 0.3
+    },
+    "gender": {
+      "male": 53.6,
+      "female": 46.4
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5701,
+        "name": "Cherry Chase Elementary School",
+        "path": "/california/sunnyvale/5701-Cherry-Chase-Elementary-School/",
+        "distanceMi": 0.7,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5708,
+        "name": "Sunnyvale Middle School",
+        "path": "/california/sunnyvale/5708-Sunnyvale-Middle-School/",
+        "distanceMi": 0.55,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 10.08,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Sunnyvale School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/sunnyvale-school-district/"
+  },
+  {
+    "id": 5704,
+    "name": "Ellis Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5704-Ellis-Elementary-School/",
+    "path": "/california/sunnyvale/5704-Ellis-Elementary-School/",
+    "rating": 7,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "656",
+    "address": {
+      "street": "550 East Olive Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94086",
+      "full": "550 East Olive Avenue, Sunnyvale, CA, 94086"
+    },
+    "phone": "(408) 522-8260",
+    "lat": 37.3691714,
+    "lng": -122.0239914,
+    "metrics": {
+      "rating": 7,
+      "lowIncome": 28.6,
+      "englishLearners": 35.7,
+      "studentsPerTeacher": 23,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 40.9,
+      "Asian": 36.3,
+      "White": 11.7,
+      "Two or more races": 5.9,
+      "Filipino": 3.4,
+      "Black": 1.2,
+      "Native American": 0.4,
+      "Pacific Islander": 0.3,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 51,
+      "female": 49
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5628,
+        "name": "Braly Elementary School",
+        "path": "/california/sunnyvale/5628-Braly-Elementary-School/",
+        "distanceMi": 0.49,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 2,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 9.06,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Sunnyvale School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/sunnyvale-school-district/"
+  },
+  {
+    "id": 5705,
+    "name": "Fairwood Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5705-Fairwood-Elementary-School/",
+    "path": "/california/sunnyvale/5705-Fairwood-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "656",
+    "address": {
+      "street": "1110 Fairwood Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94089",
+      "full": "1110 Fairwood Avenue, Sunnyvale, CA, 94089"
+    },
+    "phone": "(408) 523-4870",
+    "lat": 37.3964197,
+    "lng": -121.9903658,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 26.5,
+      "englishLearners": 18.8,
+      "studentsPerTeacher": 19,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 36.1,
+      "Asian": 21,
+      "White": 17.3,
+      "Two or more races": 11.1,
+      "Filipino": 10.5,
+      "Black": 3.4,
+      "Pacific Islander": 0.6,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 57.1,
+      "female": 42.9
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5706,
+        "name": "Lakewood Elementary School",
+        "path": "/california/sunnyvale/5706-Lakewood-Elementary-School/",
+        "distanceMi": 0.68,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 1.35,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 32733,
+        "name": "Mission Early College High",
+        "path": "/california/santa-clara/32733-Mission-Early-College-High/",
+        "distanceMi": 0.69,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Sunnyvale School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/sunnyvale-school-district/"
+  },
+  {
+    "id": 5706,
+    "name": "Lakewood Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5706-Lakewood-Elementary-School/",
+    "path": "/california/sunnyvale/5706-Lakewood-Elementary-School/",
+    "rating": 6,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "656",
+    "address": {
+      "street": "750 Lakechime Drive",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94089",
+      "full": "750 Lakechime Drive, Sunnyvale, CA, 94089"
+    },
+    "phone": "(408) 522-8272",
+    "lat": 37.3973573,
+    "lng": -122.0030514,
+    "metrics": {
+      "rating": 6,
+      "lowIncome": 41.4,
+      "englishLearners": 27.4,
+      "studentsPerTeacher": 12,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 60.8,
+      "White": 9.9,
+      "Asian": 9.7,
+      "Filipino": 8.1,
+      "Two or more races": 7.8,
+      "Black": 1.9,
+      "Pacific Islander": 1.3,
+      "Native American": 0.5
+    },
+    "gender": {
+      "male": 53.5,
+      "female": 46.5
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5707,
+        "name": "San Miguel Elementary School",
+        "path": "/california/sunnyvale/5707-San-Miguel-Elementary-School/",
+        "distanceMi": 0.55,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 0.68,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 8.11,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Sunnyvale School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/sunnyvale-school-district/"
+  },
+  {
+    "id": 5707,
+    "name": "San Miguel Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5707-San-Miguel-Elementary-School/",
+    "path": "/california/sunnyvale/5707-San-Miguel-Elementary-School/",
+    "rating": 5,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "656",
+    "address": {
+      "street": "777 San Miguel Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94085",
+      "full": "777 San Miguel Avenue, Sunnyvale, CA, 94085"
+    },
+    "phone": "(408) 522-8278",
+    "lat": 37.3913641,
+    "lng": -122.0091727,
+    "metrics": {
+      "rating": 5,
+      "lowIncome": 37.6,
+      "englishLearners": 38.5,
+      "studentsPerTeacher": 13,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 68.7,
+      "White": 10.4,
+      "Filipino": 7.4,
+      "Two or more races": 6,
+      "Asian": 5.8,
+      "Black": 0.9,
+      "Pacific Islander": 0.5,
+      "Native American": 0.2,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 51,
+      "female": 49
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5706,
+        "name": "Lakewood Elementary School",
+        "path": "/california/sunnyvale/5706-Lakewood-Elementary-School/",
+        "distanceMi": 0.55,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 0.53,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 8.36,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Sunnyvale School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/sunnyvale-school-district/"
+  },
+  {
+    "id": 5708,
+    "name": "Sunnyvale Middle School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5708-Sunnyvale-Middle-School/",
+    "path": "/california/sunnyvale/5708-Sunnyvale-Middle-School/",
+    "rating": 9,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "656",
+    "address": {
+      "street": "1080 Mango Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94087",
+      "full": "1080 Mango Avenue, Sunnyvale, CA, 94087"
+    },
+    "phone": "(408) 522-8288",
+    "lat": 37.3595803,
+    "lng": -122.0506928,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 21.1,
+      "englishLearners": 17.9,
+      "studentsPerTeacher": 19,
+      "pctCertifiedTeachers": 98
+    },
+    "demographics": {
+      "Asian": 32.9,
+      "Hispanic": 26.9,
+      "White": 25.7,
+      "Two or more races": 9.3,
+      "Filipino": 2.5,
+      "Black": 1.5,
+      "Native American": 1,
+      "Pacific Islander": 0.2
+    },
+    "gender": {
+      "male": 48.9,
+      "female": 51.1
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5701,
+        "name": "Cherry Chase Elementary School",
+        "path": "/california/sunnyvale/5701-Cherry-Chase-Elementary-School/",
+        "distanceMi": 0.37,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 3.15,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 5579,
+        "name": "Alta Vista High School",
+        "path": "/california/mountain-view/5579-Alta-Vista-High-School/",
+        "distanceMi": 0.67,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Sunnyvale School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/sunnyvale-school-district/"
+  },
+  {
+    "id": 5709,
+    "name": "Vargas Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5709-Vargas-Elementary-School/",
+    "path": "/california/sunnyvale/5709-Vargas-Elementary-School/",
+    "rating": 3,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "656",
+    "address": {
+      "street": "1054 Carson Drive",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94086",
+      "full": "1054 Carson Drive, Sunnyvale, CA, 94086"
+    },
+    "phone": "(408) 522-8267",
+    "lat": 37.3804454,
+    "lng": -122.0482764,
+    "metrics": {
+      "rating": 3,
+      "lowIncome": 36.3,
+      "englishLearners": 45.3,
+      "studentsPerTeacher": 18,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 59.5,
+      "Asian": 18.2,
+      "White": 10.6,
+      "Two or more races": 7.4,
+      "Filipino": 1.8,
+      "Black": 1.4,
+      "Native American": 0.7,
+      "Pacific Islander": 0.5
+    },
+    "gender": {
+      "male": 54.9,
+      "female": 45.1
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5703,
+        "name": "Cumberland Elementary School",
+        "path": "/california/sunnyvale/5703-Cumberland-Elementary-School/",
+        "distanceMi": 1.01,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 2.15,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 10.39,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Sunnyvale School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/sunnyvale-school-district/"
+  },
+  {
+    "id": 5430,
+    "name": "Cupertino Middle School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5430-Cupertino-Middle-School/",
+    "path": "/california/sunnyvale/5430-Cupertino-Middle-School/",
+    "rating": 9,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "631",
+    "address": {
+      "street": "1650 South Bernardo Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94087",
+      "full": "1650 South Bernardo Avenue, Sunnyvale, CA, 94087"
+    },
+    "phone": "(408) 245-0303",
+    "lat": 37.340076,
+    "lng": -122.0581035,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 21.1,
+      "englishLearners": 13.3,
+      "studentsPerTeacher": 18,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 52.6,
+      "White": 24.5,
+      "Hispanic": 11.9,
+      "Two or more races": 4.9,
+      "Filipino": 2,
+      "Black": 0.7,
+      "Native American": 0.2,
+      "Pacific Islander": 0.1,
+      "Unspecified": 3
+    },
+    "gender": {
+      "male": 51.7,
+      "female": 48.3
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5451,
+        "name": "West Valley Elementary School",
+        "path": "/california/sunnyvale/5451-West-Valley-Elementary-School/",
+        "distanceMi": 0.26,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 4.62,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 5498,
+        "name": "Homestead High School",
+        "path": "/california/cupertino/5498-Homestead-High-School/",
+        "distanceMi": 0.59,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/"
+  },
+  {
+    "id": 5497,
+    "name": "Fremont High School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5497-Fremont-High-School/",
+    "path": "/california/sunnyvale/5497-Fremont-High-School/",
+    "rating": 9,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "635",
+    "address": {
+      "street": "575 West Fremont Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94087",
+      "full": "575 West Fremont Avenue, Sunnyvale, CA, 94087"
+    },
+    "phone": "(408) 522-2400",
+    "lat": 37.3540092,
+    "lng": -122.0347454,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 30.8,
+      "englishLearners": 19.7,
+      "studentsPerTeacher": 23,
+      "pctCertifiedTeachers": 96
+    },
+    "demographics": {
+      "Hispanic": 43.6,
+      "Asian": 24.3,
+      "White": 15.8,
+      "Filipino": 6.7,
+      "Two or more races": 5.5,
+      "Black": 1.3,
+      "Native American": 0.9,
+      "Pacific Islander": 0.7
+    },
+    "gender": {
+      "male": 51.7,
+      "female": 48.3
+    },
+    "nearby": {
+      "elementary": {
+        "id": 10862,
+        "name": "Amy Imai Elementary",
+        "path": "/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/",
+        "distanceMi": 2.63,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 3.17,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 25818,
+        "name": "North County Regional Occupational Program School",
+        "path": "/california/sunnyvale/25818-North-County-Regional-Occupational-Program-School/",
+        "distanceMi": 0.17,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Fremont Union High School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/fremont-union-high-school-district/"
+  },
+  {
+    "id": 5718,
+    "name": "Oster Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5718-Oster-Elementary-School/",
+    "path": "/california/san-jose/5718-Oster-Elementary-School/",
+    "rating": 10,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "657",
+    "address": {
+      "street": "1855 Lencar Way",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95124",
+      "full": "1855 Lencar Way, San Jose, CA, 95124"
+    },
+    "phone": "(408) 266-8121",
+    "lat": 37.2567568,
+    "lng": -121.9197329,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 13.2,
+      "englishLearners": 20.1,
+      "studentsPerTeacher": 27,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 50.6,
+      "White": 23.6,
+      "Hispanic": 17.9,
+      "Two or more races": 6.1,
+      "Filipino": 1,
+      "Black": 1
+    },
+    "gender": {
+      "male": 50.6,
+      "female": 49.4
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 3.75,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 14794,
+        "name": "Sam H. Lawson Middle School",
+        "path": "/california/cupertino/14794-Sam-H.-Lawson-Middle-School/",
+        "distanceMi": 7.76,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 5.51,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Union Elementary School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/union-elementary-school-district/"
+  },
+  {
+    "id": 5405,
+    "name": "Bagby Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5405-Bagby-Elementary-School/",
+    "path": "/california/san-jose/5405-Bagby-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "627",
+    "address": {
+      "street": "1840 Harris Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95124",
+      "full": "1840 Harris Avenue, San Jose, CA, 95124"
+    },
+    "phone": "408-377-3882",
+    "lat": 37.2772686,
+    "lng": -121.9220846,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 15.3,
+      "englishLearners": 12.1,
+      "studentsPerTeacher": 22,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "White": 34,
+      "Hispanic": 29.7,
+      "Asian": 17.4,
+      "Two or more races": 14,
+      "Black": 3,
+      "Filipino": 1.3,
+      "Pacific Islander": 0.6
+    },
+    "gender": {
+      "male": 52.6,
+      "female": 47.4
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5406,
+        "name": "Fammatre Elementary School",
+        "path": "/california/san-jose/5406-Fammatre-Elementary-School/",
+        "distanceMi": 0.36,
+        "type": "Public charter",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5408,
+        "name": "Price Charter Middle School",
+        "path": "/california/san-jose/5408-Price-Charter-Middle-School/",
+        "distanceMi": 0.38,
+        "type": "Public charter",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 5.85,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Cambrian School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/cambrian-school-district/"
+  },
+  {
+    "id": 5406,
+    "name": "Fammatre Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5406-Fammatre-Elementary-School/",
+    "path": "/california/san-jose/5406-Fammatre-Elementary-School/",
+    "rating": 8,
+    "level": "e",
+    "type": "charter",
+    "grades": "K-5",
+    "district": "627",
+    "address": {
+      "street": "2800 New Jersey Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95124",
+      "full": "2800 New Jersey Avenue, San Jose, CA, 95124"
+    },
+    "phone": "(408) 377-5480",
+    "lat": 37.2718239,
+    "lng": -121.9240435,
+    "metrics": {
+      "rating": 8,
+      "lowIncome": 23,
+      "englishLearners": 14.9,
+      "studentsPerTeacher": 22,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 37.3,
+      "White": 32,
+      "Asian": 14.7,
+      "Two or more races": 12.2,
+      "Filipino": 2.3,
+      "Black": 0.4,
+      "Pacific Islander": 0.4,
+      "Native American": 0.2,
+      "Unspecified": 2
+    },
+    "gender": {
+      "male": 51.2,
+      "female": 48.8
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5405,
+        "name": "Bagby Elementary School",
+        "path": "/california/san-jose/5405-Bagby-Elementary-School/",
+        "distanceMi": 0.36,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5408,
+        "name": "Price Charter Middle School",
+        "path": "/california/san-jose/5408-Price-Charter-Middle-School/",
+        "distanceMi": 0.09,
+        "type": "Public charter",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 5.84,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Cambrian School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/cambrian-school-district/"
+  },
+  {
+    "id": 5407,
+    "name": "Farnham Charter School",
+    "url": "https://www.greatschools.org/california/san-jose/5407-Farnham-Charter-School/",
+    "path": "/california/san-jose/5407-Farnham-Charter-School/",
+    "rating": 8,
+    "level": "e",
+    "type": "charter",
+    "grades": "K-5",
+    "district": "627",
+    "address": {
+      "street": "15711 Woodard Road",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95124",
+      "full": "15711 Woodard Road, San Jose, CA, 95124"
+    },
+    "phone": "(408) 377-3321",
+    "lat": 37.2612978,
+    "lng": -121.9429901,
+    "metrics": {
+      "rating": 8,
+      "lowIncome": 24.2,
+      "englishLearners": 21.2,
+      "studentsPerTeacher": 24,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 33.1,
+      "White": 24.2,
+      "Asian": 22.8,
+      "Two or more races": 14.2,
+      "Black": 3.5,
+      "Filipino": 1.9,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 53.2,
+      "female": 46.8
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 4.3,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 14794,
+        "name": "Sam H. Lawson Middle School",
+        "path": "/california/cupertino/14794-Sam-H.-Lawson-Middle-School/",
+        "distanceMi": 6.59,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 6.81,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Cambrian School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/cambrian-school-district/"
+  },
+  {
+    "id": 5408,
+    "name": "Price Charter Middle School",
+    "url": "https://www.greatschools.org/california/san-jose/5408-Price-Charter-Middle-School/",
+    "path": "/california/san-jose/5408-Price-Charter-Middle-School/",
+    "rating": 9,
+    "level": "m",
+    "type": "charter",
+    "grades": "6-8",
+    "district": "627",
+    "address": {
+      "street": "2650 New Jersey Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95124",
+      "full": "2650 New Jersey Avenue, San Jose, CA, 95124"
+    },
+    "phone": "(408) 377-2532",
+    "lat": 37.2732829,
+    "lng": -121.925085,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 18,
+      "englishLearners": 10.4,
+      "studentsPerTeacher": 22,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 31.5,
+      "White": 31,
+      "Asian": 19.3,
+      "Two or more races": 12.1,
+      "Filipino": 2.5,
+      "Black": 1.9,
+      "Pacific Islander": 0.4,
+      "Native American": 0.3,
+      "Unspecified": 2
+    },
+    "gender": {
+      "male": 50.1,
+      "female": 49.9
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5406,
+        "name": "Fammatre Elementary School",
+        "path": "/california/san-jose/5406-Fammatre-Elementary-School/",
+        "distanceMi": 0.09,
+        "type": "Public charter",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 9.93,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 5.93,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Cambrian School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/cambrian-school-district/"
+  },
+  {
+    "id": 5409,
+    "name": "Sartorette Charter School",
+    "url": "https://www.greatschools.org/california/san-jose/5409-Sartorette-Charter-School/",
+    "path": "/california/san-jose/5409-Sartorette-Charter-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "charter",
+    "grades": "K-5",
+    "district": "627",
+    "address": {
+      "street": "3850 Woodford Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95124",
+      "full": "3850 Woodford Drive, San Jose, CA, 95124"
+    },
+    "phone": "(408) 264-4380",
+    "lat": 37.2605782,
+    "lng": -121.9095698,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 21.2,
+      "englishLearners": 17.3,
+      "studentsPerTeacher": 22,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 38.8,
+      "Asian": 23,
+      "White": 22.7,
+      "Two or more races": 9.4,
+      "Filipino": 4.7,
+      "Pacific Islander": 0.7,
+      "Black": 0.4
+    },
+    "gender": {
+      "male": 48.9,
+      "female": 51.1
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5718,
+        "name": "Oster Elementary School",
+        "path": "/california/san-jose/5718-Oster-Elementary-School/",
+        "distanceMi": 0.62,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 14794,
+        "name": "Sam H. Lawson Middle School",
+        "path": "/california/cupertino/14794-Sam-H.-Lawson-Middle-School/",
+        "distanceMi": 7.98,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 5,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Cambrian School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/cambrian-school-district/"
+  },
+  {
+    "id": 5712,
+    "name": "Carlton Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5712-Carlton-Elementary-School/",
+    "path": "/california/san-jose/5712-Carlton-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "657",
+    "address": {
+      "street": "2421 Carlton Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95124",
+      "full": "2421 Carlton Avenue, San Jose, CA, 95124"
+    },
+    "phone": "(408) 356-1141",
+    "lat": 37.2472809,
+    "lng": -121.9464436,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 5.3,
+      "englishLearners": 18,
+      "studentsPerTeacher": 25,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 45.6,
+      "White": 31.1,
+      "Hispanic": 11.6,
+      "Two or more races": 8.8,
+      "Filipino": 1.7,
+      "Black": 1.1
+    },
+    "gender": {
+      "male": 52,
+      "female": 48
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5710,
+        "name": "Alta Vista Elementary School",
+        "path": "/california/los-gatos/5710-Alta-Vista-Elementary-School/",
+        "distanceMi": 0.58,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5719,
+        "name": "Union Middle School",
+        "path": "/california/san-jose/5719-Union-Middle-School/",
+        "distanceMi": 0.71,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 6.96,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Union Elementary School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/union-elementary-school-district/"
+  },
+  {
+    "id": 5719,
+    "name": "Union Middle School",
+    "url": "https://www.greatschools.org/california/san-jose/5719-Union-Middle-School/",
+    "path": "/california/san-jose/5719-Union-Middle-School/",
+    "rating": 10,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "657",
+    "address": {
+      "street": "2130 Los Gatos Almaden Road",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95124",
+      "full": "2130 Los Gatos Almaden Road, San Jose, CA, 95124"
+    },
+    "phone": "(408) 371-0366",
+    "lat": 37.24332,
+    "lng": -121.936228,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 8.1,
+      "englishLearners": 7.3,
+      "studentsPerTeacher": 25,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 39.9,
+      "White": 36.2,
+      "Hispanic": 12.6,
+      "Two or more races": 9,
+      "Filipino": 1.3,
+      "Black": 0.4,
+      "Pacific Islander": 0.1,
+      "Native American": 0.1,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 48.5,
+      "female": 51.5
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5710,
+        "name": "Alta Vista Elementary School",
+        "path": "/california/los-gatos/5710-Alta-Vista-Elementary-School/",
+        "distanceMi": 0.4,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 14794,
+        "name": "Sam H. Lawson Middle School",
+        "path": "/california/cupertino/14794-Sam-H.-Lawson-Middle-School/",
+        "distanceMi": 7.87,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 6.39,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Union Elementary School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/union-elementary-school-district/"
+  },
+  {
+    "id": 5425,
+    "name": "Leigh High School",
+    "url": "https://www.greatschools.org/california/san-jose/5425-Leigh-High-School/",
+    "path": "/california/san-jose/5425-Leigh-High-School/",
+    "rating": 10,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "630",
+    "address": {
+      "street": "5210 Leigh Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95124",
+      "full": "5210 Leigh Avenue, San Jose, CA, 95124"
+    },
+    "phone": "(408) 626-3405",
+    "lat": 37.241602,
+    "lng": -121.9199201,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 18.8,
+      "englishLearners": 3.2,
+      "studentsPerTeacher": 24,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "White": 40.4,
+      "Asian": 29.7,
+      "Hispanic": 16.8,
+      "Two or more races": 9.7,
+      "Filipino": 1.1,
+      "Black": 1,
+      "Native American": 0.1,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 51.9,
+      "female": 47.8
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5717,
+        "name": "Noddin Elementary School",
+        "path": "/california/san-jose/5717-Noddin-Elementary-School/",
+        "distanceMi": 0.43,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 31093,
+        "name": "College Connection Academy",
+        "path": "/california/san-jose/31093-College-Connection-Academy/",
+        "distanceMi": 6.67,
+        "type": "Public district",
+        "grades": "7-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 5.58,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Campbell Union High School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/campbell-union-high-school-district/"
+  },
+  {
+    "id": 11149,
+    "name": "Branham High School",
+    "url": "https://www.greatschools.org/california/san-jose/11149-Branham-High-School/",
+    "path": "/california/san-jose/11149-Branham-High-School/",
+    "rating": 9,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "630",
+    "address": {
+      "street": "1570 Branham Lane",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "full": "1570 Branham Lane, San Jose, CA, 95118"
+    },
+    "phone": "(408) 626-3407",
+    "lat": 37.2528104,
+    "lng": -121.8985606,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 32.1,
+      "englishLearners": 5.5,
+      "studentsPerTeacher": 24,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "White": 34.7,
+      "Hispanic": 28.4,
+      "Asian": 22,
+      "Two or more races": 10.2,
+      "Filipino": 1.9,
+      "Black": 1.8,
+      "Native American": 0.2,
+      "Pacific Islander": 0.1,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 51.2,
+      "female": 48.5
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 3.5,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 31093,
+        "name": "College Connection Academy",
+        "path": "/california/san-jose/31093-College-Connection-Academy/",
+        "distanceMi": 5.38,
+        "type": "Public district",
+        "grades": "7-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 4.31,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Campbell Union High School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/campbell-union-high-school-district/"
+  },
+  {
+    "id": 5649,
+    "name": "Almaden Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5649-Almaden-Elementary-School/",
+    "path": "/california/san-jose/5649-Almaden-Elementary-School/",
+    "rating": 7,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "655",
+    "address": {
+      "street": "1295 Dentwood Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "full": "1295 Dentwood Drive, San Jose, CA, 95118"
+    },
+    "phone": "(408) 535-6207",
+    "lat": 37.2517552,
+    "lng": -121.8845819,
+    "metrics": {
+      "rating": 7,
+      "lowIncome": 72.8,
+      "englishLearners": 46.2,
+      "studentsPerTeacher": 18,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 75.4,
+      "White": 6.6,
+      "Filipino": 5.6,
+      "Black": 4.3,
+      "Two or more races": 3.9,
+      "Asian": 3.6,
+      "Pacific Islander": 0.7
+    },
+    "gender": {
+      "male": 52.1,
+      "female": 47.9
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 3.54,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5679,
+        "name": "John Muir Middle School",
+        "path": "/california/san-jose/5679-John-Muir-Middle-School/",
+        "distanceMi": 0.61,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5681,
+        "name": "Pioneer High School",
+        "path": "/california/san-jose/5681-Pioneer-High-School/",
+        "distanceMi": 0.41,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5666,
+    "name": "Graystone Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5666-Graystone-Elementary-School/",
+    "path": "/california/san-jose/5666-Graystone-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "655",
+    "address": {
+      "street": "6982 Shearwater Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95120",
+      "full": "6982 Shearwater Drive, San Jose, CA, 95120"
+    },
+    "phone": "(408) 535-6317",
+    "lat": 37.211462,
+    "lng": -121.8368684,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 9.2,
+      "englishLearners": 13.3,
+      "studentsPerTeacher": 23,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 49.4,
+      "White": 27.3,
+      "Hispanic": 12.2,
+      "Two or more races": 8.4,
+      "Filipino": 1.9,
+      "Black": 0.9,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 53.2,
+      "female": 46.8
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5695,
+        "name": "Williams Elementary School",
+        "path": "/california/san-jose/5695-Williams-Elementary-School/",
+        "distanceMi": 0.84,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5670,
+        "name": "Bret Harte Middle School",
+        "path": "/california/san-jose/5670-Bret-Harte-Middle-School/",
+        "distanceMi": 0.51,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5673,
+        "name": "Leland High School",
+        "path": "/california/san-jose/5673-Leland-High-School/",
+        "distanceMi": 0.52,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5676,
+    "name": "Los Alamitos Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5676-Los-Alamitos-Elementary-School/",
+    "path": "/california/san-jose/5676-Los-Alamitos-Elementary-School/",
+    "rating": 7,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "655",
+    "address": {
+      "street": "6130 Silberman Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95120",
+      "full": "6130 Silberman Drive, San Jose, CA, 95120"
+    },
+    "phone": "(408) 535-6297",
+    "lat": 37.2286159,
+    "lng": -121.8797649,
+    "metrics": {
+      "rating": 7,
+      "lowIncome": 12.1,
+      "englishLearners": 10.5,
+      "studentsPerTeacher": 23,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "White": 37.2,
+      "Asian": 29.6,
+      "Two or more races": 16.4,
+      "Hispanic": 14,
+      "Filipino": 2,
+      "Black": 0.5,
+      "Native American": 0.3,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 54.8,
+      "female": 45.2
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5689,
+        "name": "Simonds Elementary School",
+        "path": "/california/san-jose/5689-Simonds-Elementary-School/",
+        "distanceMi": 0.77,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5656,
+        "name": "Castillero Middle School",
+        "path": "/california/san-jose/5656-Castillero-Middle-School/",
+        "distanceMi": 0.6,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 3.71,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5689,
+    "name": "Simonds Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5689-Simonds-Elementary-School/",
+    "path": "/california/san-jose/5689-Simonds-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "655",
+    "address": {
+      "street": "6515 Grapevine Way",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95120",
+      "full": "6515 Grapevine Way, San Jose, CA, 95120"
+    },
+    "phone": "(408) 535-6251",
+    "lat": 37.2203186,
+    "lng": -121.8699904,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 9.2,
+      "englishLearners": 11.3,
+      "studentsPerTeacher": 23,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 36,
+      "White": 29.6,
+      "Two or more races": 16.3,
+      "Hispanic": 13.8,
+      "Filipino": 2.3,
+      "Black": 1.5,
+      "Pacific Islander": 0.2,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 50.6,
+      "female": 49.4
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 5.75,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5656,
+        "name": "Castillero Middle School",
+        "path": "/california/san-jose/5656-Castillero-Middle-School/",
+        "distanceMi": 0.53,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 3.56,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5695,
+    "name": "Williams Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5695-Williams-Elementary-School/",
+    "path": "/california/san-jose/5695-Williams-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "655",
+    "address": {
+      "street": "1150 Rajkovich Way",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95120",
+      "full": "1150 Rajkovich Way, San Jose, CA, 95120"
+    },
+    "phone": "(408) 535-6196",
+    "lat": 37.2075732,
+    "lng": -121.8513848,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 8.2,
+      "englishLearners": 10.2,
+      "studentsPerTeacher": 25,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 54.7,
+      "White": 24.9,
+      "Two or more races": 11.4,
+      "Hispanic": 7.5,
+      "Filipino": 0.9,
+      "Black": 0.4,
+      "Pacific Islander": 0.2
+    },
+    "gender": {
+      "male": 49.2,
+      "female": 50.8
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5666,
+        "name": "Graystone Elementary School",
+        "path": "/california/san-jose/5666-Graystone-Elementary-School/",
+        "distanceMi": 0.84,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5670,
+        "name": "Bret Harte Middle School",
+        "path": "/california/san-jose/5670-Bret-Harte-Middle-School/",
+        "distanceMi": 0.51,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5673,
+        "name": "Leland High School",
+        "path": "/california/san-jose/5673-Leland-High-School/",
+        "distanceMi": 0.72,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5714,
+    "name": "Guadalupe Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5714-Guadalupe-Elementary-School/",
+    "path": "/california/san-jose/5714-Guadalupe-Elementary-School/",
+    "rating": 8,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "657",
+    "address": {
+      "street": "6044 Vera Cruz Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95120",
+      "full": "6044 Vera Cruz Drive, San Jose, CA, 95120"
+    },
+    "phone": "(408) 268-1030",
+    "lat": 37.2287878,
+    "lng": -121.8969772,
+    "metrics": {
+      "rating": 8,
+      "lowIncome": 8.4,
+      "englishLearners": 16,
+      "studentsPerTeacher": 23,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 50.7,
+      "White": 27.4,
+      "Hispanic": 11.2,
+      "Two or more races": 8.6,
+      "Filipino": 0.9,
+      "Black": 0.6,
+      "Pacific Islander": 0.2,
+      "Native American": 0.2
+    },
+    "gender": {
+      "male": 51.8,
+      "female": 48.2
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 5.16,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5713,
+        "name": "Dartmouth Middle School",
+        "path": "/california/san-jose/5713-Dartmouth-Middle-School/",
+        "distanceMi": 0.78,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 4.55,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Union Elementary School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/union-elementary-school-district/"
+  },
+  {
+    "id": 5669,
+    "name": "Hacienda Science/Environmental Magnet School",
+    "url": "https://www.greatschools.org/california/san-jose/5669-Hacienda-Science-Environmental-Magnet-School/",
+    "path": "/california/san-jose/5669-Hacienda-Science-Environmental-Magnet-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "655",
+    "address": {
+      "street": "1290 Kimberly Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "full": "1290 Kimberly Drive, San Jose, CA, 95118"
+    },
+    "phone": "(408) 535-6259",
+    "lat": 37.2690113,
+    "lng": -121.8829474,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 22.5,
+      "englishLearners": 10.3,
+      "studentsPerTeacher": 24,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 31.4,
+      "White": 30.4,
+      "Asian": 19,
+      "Two or more races": 12.9,
+      "Black": 3.4,
+      "Filipino": 2.6,
+      "Native American": 0.3,
+      "Pacific Islander": 0.2,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 51.3,
+      "female": 48.7
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 2.35,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5679,
+        "name": "John Muir Middle School",
+        "path": "/california/san-jose/5679-John-Muir-Middle-School/",
+        "distanceMi": 0.6,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5653,
+        "name": "Broadway High School",
+        "path": "/california/san-jose/5653-Broadway-High-School/",
+        "distanceMi": 0.55,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5656,
+    "name": "Castillero Middle School",
+    "url": "https://www.greatschools.org/california/san-jose/5656-Castillero-Middle-School/",
+    "path": "/california/san-jose/5656-Castillero-Middle-School/",
+    "rating": 7,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "655",
+    "address": {
+      "street": "6384 Leyland Park Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95120",
+      "full": "6384 Leyland Park Drive, San Jose, CA, 95120"
+    },
+    "phone": "(408) 535-6385",
+    "lat": 37.2203892,
+    "lng": -121.8785481,
+    "metrics": {
+      "rating": 7,
+      "lowIncome": 32.4,
+      "englishLearners": 13.8,
+      "studentsPerTeacher": 21,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 40.2,
+      "White": 31.6,
+      "Asian": 14.9,
+      "Two or more races": 9.5,
+      "Filipino": 2,
+      "Black": 1.5,
+      "Pacific Islander": 0.2
+    },
+    "gender": {
+      "male": 49.9,
+      "female": 50.1
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5689,
+        "name": "Simonds Elementary School",
+        "path": "/california/san-jose/5689-Simonds-Elementary-School/",
+        "distanceMi": 0.53,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 31093,
+        "name": "College Connection Academy",
+        "path": "/california/san-jose/31093-College-Connection-Academy/",
+        "distanceMi": 7.17,
+        "type": "Public district",
+        "grades": "7-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 4.01,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5670,
+    "name": "Bret Harte Middle School",
+    "url": "https://www.greatschools.org/california/san-jose/5670-Bret-Harte-Middle-School/",
+    "path": "/california/san-jose/5670-Bret-Harte-Middle-School/",
+    "rating": 8,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "655",
+    "address": {
+      "street": "7050 Bret Harte Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95120",
+      "full": "7050 Bret Harte Drive, San Jose, CA, 95120"
+    },
+    "phone": "(408) 535-6270",
+    "lat": 37.2129841,
+    "lng": -121.845294,
+    "metrics": {
+      "rating": 8,
+      "lowIncome": 11.9,
+      "englishLearners": 6.3,
+      "studentsPerTeacher": 21,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 50.9,
+      "White": 23.4,
+      "Hispanic": 13.6,
+      "Two or more races": 8.6,
+      "Filipino": 1.9,
+      "Black": 1.5,
+      "Native American": 0.1
+    },
+    "gender": {
+      "male": 50.7,
+      "female": 49.3
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5666,
+        "name": "Graystone Elementary School",
+        "path": "/california/san-jose/5666-Graystone-Elementary-School/",
+        "distanceMi": 0.51,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 31093,
+        "name": "College Connection Academy",
+        "path": "/california/san-jose/31093-College-Connection-Academy/",
+        "distanceMi": 7.43,
+        "type": "Public district",
+        "grades": "7-8"
+      },
+      "high": {
+        "id": 5673,
+        "name": "Leland High School",
+        "path": "/california/san-jose/5673-Leland-High-School/",
+        "distanceMi": 0.21,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5673,
+    "name": "Leland High School",
+    "url": "https://www.greatschools.org/california/san-jose/5673-Leland-High-School/",
+    "path": "/california/san-jose/5673-Leland-High-School/",
+    "rating": 10,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "655",
+    "address": {
+      "street": "6677 Camden Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95120",
+      "full": "6677 Camden Avenue, San Jose, CA, 95120"
+    },
+    "phone": "(408) 535-6290",
+    "lat": 37.2166679,
+    "lng": -121.8441458,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 11.4,
+      "englishLearners": 3.1,
+      "studentsPerTeacher": 23,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 49.2,
+      "White": 27.4,
+      "Hispanic": 11.8,
+      "Two or more races": 8.9,
+      "Filipino": 1.4,
+      "Black": 0.7,
+      "Pacific Islander": 0.3,
+      "Native American": 0.3,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 51,
+      "female": 49
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5666,
+        "name": "Graystone Elementary School",
+        "path": "/california/san-jose/5666-Graystone-Elementary-School/",
+        "distanceMi": 0.52,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5670,
+        "name": "Bret Harte Middle School",
+        "path": "/california/san-jose/5670-Bret-Harte-Middle-School/",
+        "distanceMi": 0.21,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 2.9,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5681,
+    "name": "Pioneer High School",
+    "url": "https://www.greatschools.org/california/san-jose/5681-Pioneer-High-School/",
+    "path": "/california/san-jose/5681-Pioneer-High-School/",
+    "rating": 9,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "655",
+    "address": {
+      "street": "1290 Blossom Hill Road",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "full": "1290 Blossom Hill Road, San Jose, CA, 95118"
+    },
+    "phone": "(408) 535-6310",
+    "lat": 37.245991,
+    "lng": -121.8802182,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 31.5,
+      "englishLearners": 8.8,
+      "studentsPerTeacher": 22,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 41,
+      "White": 35.2,
+      "Asian": 11.1,
+      "Two or more races": 7.1,
+      "Filipino": 3.1,
+      "Black": 2.2,
+      "Pacific Islander": 0.2,
+      "Native American": 0.1,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 49.5,
+      "female": 50.4
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5649,
+        "name": "Almaden Elementary School",
+        "path": "/california/san-jose/5649-Almaden-Elementary-School/",
+        "distanceMi": 0.41,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5679,
+        "name": "John Muir Middle School",
+        "path": "/california/san-jose/5679-John-Muir-Middle-School/",
+        "distanceMi": 0.97,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 3.41,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5651,
+    "name": "Booksin Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5651-Booksin-Elementary-School/",
+    "path": "/california/san-jose/5651-Booksin-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "655",
+    "address": {
+      "street": "1590 Dry Creek Road",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95125",
+      "full": "1590 Dry Creek Road, San Jose, CA, 95125"
+    },
+    "phone": "(408) 535-6213",
+    "lat": 37.2877689,
+    "lng": -121.9055499,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 11.9,
+      "englishLearners": 6.3,
+      "studentsPerTeacher": 24,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "White": 43.2,
+      "Hispanic": 20.7,
+      "Asian": 19.2,
+      "Two or more races": 15.5,
+      "Filipino": 0.7,
+      "Black": 0.6,
+      "Native American": 0.1
+    },
+    "gender": {
+      "male": 53,
+      "female": 46.9
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 1.51,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5698,
+        "name": "Willow Glen Middle School",
+        "path": "/california/san-jose/5698-Willow-Glen-Middle-School/",
+        "distanceMi": 0.56,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5697,
+        "name": "Willow Glen High School",
+        "path": "/california/san-jose/5697-Willow-Glen-High-School/",
+        "distanceMi": 0.45,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5450,
+    "name": "Louis E. Stocklmeir Elementary School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5450-Louis-E.-Stocklmeir-Elementary-School/",
+    "path": "/california/sunnyvale/5450-Louis-E.-Stocklmeir-Elementary-School/",
+    "rating": 10,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "address": {
+      "street": "592 Dunholme Way",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94087",
+      "full": "592 Dunholme Way, Sunnyvale, CA, 94087"
+    },
+    "phone": "(408) 732-3363",
+    "lat": 37.3439786,
+    "lng": -122.0272909,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 21.4,
+      "englishLearners": 30.5,
+      "studentsPerTeacher": 24,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 52,
+      "White": 28.2,
+      "Hispanic": 6.3,
+      "Two or more races": 4.6,
+      "Filipino": 1.8,
+      "Native American": 0.6,
+      "Black": 0.6,
+      "Pacific Islander": 0.1,
+      "Unspecified": 5
+    },
+    "gender": {
+      "male": 51.3,
+      "female": 48.6
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5445,
+        "name": "Chester W. Nimitz Elementary School",
+        "path": "/california/sunnyvale/5445-Chester-W.-Nimitz-Elementary-School/",
+        "distanceMi": 0.49,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 3.73,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 9.4,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/"
+  },
+  {
+    "id": 5435,
+    "name": "William Faria Elementary School",
+    "url": "https://www.greatschools.org/california/cupertino/5435-William-Faria-Elementary-School/",
+    "path": "/california/cupertino/5435-William-Faria-Elementary-School/",
+    "rating": 10,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "address": {
+      "street": "10155 Barbara Lane",
+      "city": "Cupertino",
+      "state": "CA",
+      "zip": "95014",
+      "full": "10155 Barbara Lane, Cupertino, CA, 95014"
+    },
+    "phone": "(408) 252-0706",
+    "lat": 37.3206195,
+    "lng": -122.0401073,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 12.5,
+      "englishLearners": 15.1,
+      "studentsPerTeacher": 23,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 90.7,
+      "White": 1.8,
+      "Native American": 1.1,
+      "Two or more races": 1,
+      "Black": 0.5,
+      "Hispanic": 0.3,
+      "Unspecified": 5
+    },
+    "gender": {
+      "male": 51.5,
+      "female": 48.5
+    },
+    "nearby": {
+      "elementary": {
+        "id": 10862,
+        "name": "Amy Imai Elementary",
+        "path": "/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/",
+        "distanceMi": 4.17,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 5.45,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 10.43,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/"
+  },
+  {
+    "id": 5436,
+    "name": "Garden Gate Elementary School",
+    "url": "https://www.greatschools.org/california/cupertino/5436-Garden-Gate-Elementary-School/",
+    "path": "/california/cupertino/5436-Garden-Gate-Elementary-School/",
+    "rating": 8,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "address": {
+      "street": "10500 Ann Arbor Avenue",
+      "city": "Cupertino",
+      "state": "CA",
+      "zip": "95014",
+      "full": "10500 Ann Arbor Avenue, Cupertino, CA, 95014"
+    },
+    "phone": "(408) 252-5414",
+    "lat": 37.3315194,
+    "lng": -122.0447988,
+    "metrics": {
+      "rating": 8,
+      "lowIncome": 20.8,
+      "englishLearners": 31.4,
+      "studentsPerTeacher": 23,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 82.8,
+      "Hispanic": 4.7,
+      "White": 3.8,
+      "Two or more races": 3.2,
+      "Native American": 1.3,
+      "Filipino": 0.6,
+      "Black": 0.6,
+      "Pacific Islander": 0.2,
+      "Unspecified": 2
+    },
+    "gender": {
+      "male": 50.5,
+      "female": 49.5
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5435,
+        "name": "William Faria Elementary School",
+        "path": "/california/cupertino/5435-William-Faria-Elementary-School/",
+        "distanceMi": 0.78,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 4.83,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 5498,
+        "name": "Homestead High School",
+        "path": "/california/cupertino/5498-Homestead-High-School/",
+        "distanceMi": 0.36,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/"
+  },
+  {
+    "id": 5439,
+    "name": "Abraham Lincoln Elementary School",
+    "url": "https://www.greatschools.org/california/cupertino/5439-Abraham-Lincoln-Elementary-School/",
+    "path": "/california/cupertino/5439-Abraham-Lincoln-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "address": {
+      "street": "21710 McClellan Road",
+      "city": "Cupertino",
+      "state": "CA",
+      "zip": "95014",
+      "full": "21710 McClellan Road, Cupertino, CA, 95014"
+    },
+    "phone": "(408) 252-4798",
+    "lat": 37.3145912,
+    "lng": -122.0539195,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 14.4,
+      "englishLearners": 17.7,
+      "studentsPerTeacher": 22,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 73.6,
+      "White": 6.2,
+      "Hispanic": 5.1,
+      "Two or more races": 4.7,
+      "Filipino": 1.5,
+      "Native American": 1.2,
+      "Black": 0.6,
+      "Unspecified": 6
+    },
+    "gender": {
+      "male": 52.3,
+      "female": 47.7
+    },
+    "nearby": {
+      "elementary": {
+        "id": 10862,
+        "name": "Amy Imai Elementary",
+        "path": "/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/",
+        "distanceMi": 4.32,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5438,
+        "name": "John F. Kennedy Middle School",
+        "path": "/california/cupertino/5438-John-F.-Kennedy-Middle-School/",
+        "distanceMi": 0.23,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5500,
+        "name": "Monta Vista High School",
+        "path": "/california/cupertino/5500-Monta-Vista-High-School/",
+        "distanceMi": 0.09,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/"
+  },
+  {
+    "id": 5449,
+    "name": "Stevens Creek Elementary School",
+    "url": "https://www.greatschools.org/california/cupertino/5449-Stevens-Creek-Elementary-School/",
+    "path": "/california/cupertino/5449-Stevens-Creek-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "631",
+    "address": {
+      "street": "10300 Ainsworth Drive",
+      "city": "Cupertino",
+      "state": "CA",
+      "zip": "95014",
+      "full": "10300 Ainsworth Drive, Cupertino, CA, 95014"
+    },
+    "phone": "(408) 245-3312",
+    "lat": 37.3276695,
+    "lng": -122.0636641,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 13.3,
+      "englishLearners": 18.9,
+      "studentsPerTeacher": 22,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 58,
+      "White": 18.2,
+      "Hispanic": 9.3,
+      "Two or more races": 7.4,
+      "Filipino": 1,
+      "Black": 0.2,
+      "Pacific Islander": 0.2,
+      "Unspecified": 7
+    },
+    "gender": {
+      "male": 52.1,
+      "female": 47.7
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5451,
+        "name": "West Valley Elementary School",
+        "path": "/california/sunnyvale/5451-West-Valley-Elementary-School/",
+        "distanceMi": 0.9,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5430,
+        "name": "Cupertino Middle School",
+        "path": "/california/sunnyvale/5430-Cupertino-Middle-School/",
+        "distanceMi": 0.84,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 11.52,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/"
+  },
+  {
+    "id": 5496,
+    "name": "Cupertino High School",
+    "url": "https://www.greatschools.org/california/cupertino/5496-Cupertino-High-School/",
+    "path": "/california/cupertino/5496-Cupertino-High-School/",
+    "rating": 10,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "635",
+    "address": {
+      "street": "10100 Finch Avenue",
+      "city": "Cupertino",
+      "state": "CA",
+      "zip": "95014",
+      "full": "10100 Finch Avenue, Cupertino, CA, 95014"
+    },
+    "phone": "(408) 366-7300",
+    "lat": 37.320849,
+    "lng": -122.010352,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 11.3,
+      "englishLearners": 7.9,
+      "studentsPerTeacher": 25,
+      "pctCertifiedTeachers": 98
+    },
+    "demographics": {
+      "Asian": 69.7,
+      "Hispanic": 10.9,
+      "White": 9.4,
+      "Two or more races": 5.4,
+      "Filipino": 1.7,
+      "Black": 0.4,
+      "Pacific Islander": 0.2,
+      "Native American": 0.1,
+      "Unspecified": 3
+    },
+    "gender": {
+      "male": 51,
+      "female": 48.9
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5448,
+        "name": "D. J. Sedgwick Elementary School",
+        "path": "/california/cupertino/5448-D.-J.-Sedgwick-Elementary-School/",
+        "distanceMi": 0.3,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 5.37,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 8.86,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Fremont Union High School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/fremont-union-high-school-district/"
+  },
+  {
+    "id": 5498,
+    "name": "Homestead High School",
+    "url": "https://www.greatschools.org/california/cupertino/5498-Homestead-High-School/",
+    "path": "/california/cupertino/5498-Homestead-High-School/",
+    "rating": 10,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "635",
+    "address": {
+      "street": "21370 Homestead Road",
+      "city": "Cupertino",
+      "state": "CA",
+      "zip": "95014",
+      "full": "21370 Homestead Road, Cupertino, CA, 95014"
+    },
+    "phone": "(408) 522-2500",
+    "lat": 37.3357104,
+    "lng": -122.0483046,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 19,
+      "englishLearners": 11.2,
+      "studentsPerTeacher": 25,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 42,
+      "White": 23.6,
+      "Hispanic": 20.6,
+      "Two or more races": 8.1,
+      "Filipino": 1.8,
+      "Black": 0.8,
+      "Native American": 0.4,
+      "Pacific Islander": 0.1,
+      "Unspecified": 2
+    },
+    "gender": {
+      "male": 51.3,
+      "female": 48.7
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5436,
+        "name": "Garden Gate Elementary School",
+        "path": "/california/cupertino/5436-Garden-Gate-Elementary-School/",
+        "distanceMi": 0.36,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5430,
+        "name": "Cupertino Middle School",
+        "path": "/california/sunnyvale/5430-Cupertino-Middle-School/",
+        "distanceMi": 0.59,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 10.57,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Fremont Union High School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/fremont-union-high-school-district/"
+  },
+  {
+    "id": 5500,
+    "name": "Monta Vista High School",
+    "url": "https://www.greatschools.org/california/cupertino/5500-Monta-Vista-High-School/",
+    "path": "/california/cupertino/5500-Monta-Vista-High-School/",
+    "rating": 10,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "635",
+    "address": {
+      "street": "21840 McClellan Road",
+      "city": "Cupertino",
+      "state": "CA",
+      "zip": "95014",
+      "full": "21840 McClellan Road, Cupertino, CA, 95014"
+    },
+    "phone": "(408) 366-7600",
+    "lat": 37.3145916,
+    "lng": -122.0567526,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 6.5,
+      "englishLearners": 5,
+      "studentsPerTeacher": 26,
+      "pctCertifiedTeachers": 97
+    },
+    "demographics": {
+      "Asian": 77.1,
+      "White": 7.2,
+      "Two or more races": 6.1,
+      "Hispanic": 4.6,
+      "Filipino": 1.6,
+      "Native American": 0.5,
+      "Pacific Islander": 0.4,
+      "Black": 0.1,
+      "Unspecified": 3
+    },
+    "gender": {
+      "male": 52.8,
+      "female": 47.2
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5439,
+        "name": "Abraham Lincoln Elementary School",
+        "path": "/california/cupertino/5439-Abraham-Lincoln-Elementary-School/",
+        "distanceMi": 0.09,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5438,
+        "name": "John F. Kennedy Middle School",
+        "path": "/california/cupertino/5438-John-F.-Kennedy-Middle-School/",
+        "distanceMi": 0.28,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 11.41,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Fremont Union High School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/fremont-union-high-school-district/"
+  },
+  {
+    "id": 5717,
+    "name": "Noddin Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5717-Noddin-Elementary-School/",
+    "path": "/california/san-jose/5717-Noddin-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "657",
+    "address": {
+      "street": "1755 Gilda Way",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95124",
+      "full": "1755 Gilda Way, San Jose, CA, 95124"
+    },
+    "phone": "(408) 356-2126",
+    "lat": 37.2383975,
+    "lng": -121.9143489,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 15.4,
+      "englishLearners": 17,
+      "studentsPerTeacher": 24,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 45.4,
+      "White": 25.4,
+      "Hispanic": 19,
+      "Two or more races": 7.2,
+      "Black": 1,
+      "Filipino": 0.8,
+      "Pacific Islander": 0.6,
+      "Native American": 0.4,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 49.4,
+      "female": 50.6
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 4.72,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 31093,
+        "name": "College Connection Academy",
+        "path": "/california/san-jose/31093-College-Connection-Academy/",
+        "distanceMi": 6.7,
+        "type": "Public district",
+        "grades": "7-8"
+      },
+      "high": {
+        "id": 5425,
+        "name": "Leigh High School",
+        "path": "/california/san-jose/5425-Leigh-High-School/",
+        "distanceMi": 0.43,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Union Elementary School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/union-elementary-school-district/"
+  },
+  {
+    "id": 5715,
+    "name": "Lietz Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5715-Lietz-Elementary-School/",
+    "path": "/california/san-jose/5715-Lietz-Elementary-School/",
+    "rating": 8,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "657",
+    "address": {
+      "street": "5300 Carter Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "full": "5300 Carter Avenue, San Jose, CA, 95118"
+    },
+    "phone": "(408) 264-8314",
+    "lat": 37.2437159,
+    "lng": -121.9021696,
+    "metrics": {
+      "rating": 8,
+      "lowIncome": 23.6,
+      "englishLearners": 20.2,
+      "studentsPerTeacher": 22,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 34.9,
+      "Asian": 28.3,
+      "White": 26.1,
+      "Two or more races": 8.2,
+      "Filipino": 1,
+      "Black": 1,
+      "Native American": 0.2,
+      "Pacific Islander": 0.2,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 52.5,
+      "female": 47.5
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 4.18,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5713,
+        "name": "Dartmouth Middle School",
+        "path": "/california/san-jose/5713-Dartmouth-Middle-School/",
+        "distanceMi": 0.35,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 4.57,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Union Elementary School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/union-elementary-school-district/"
+  },
+  {
+    "id": 31680,
+    "name": "Latimer Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/31680-Latimer-Elementary-School/",
+    "path": "/california/san-jose/31680-Latimer-Elementary-School/",
+    "rating": 8,
+    "level": "e,m",
+    "type": "public",
+    "grades": "K-8",
+    "district": "646",
+    "address": {
+      "street": "4250 Latimer Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95130",
+      "full": "4250 Latimer Avenue, San Jose, CA, 95130"
+    },
+    "phone": "(408) 874-3600",
+    "lat": 37.2916829,
+    "lng": -121.9777208,
+    "metrics": {
+      "rating": 8,
+      "lowIncome": 47.7,
+      "englishLearners": 26.3,
+      "studentsPerTeacher": 32,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 50.5,
+      "White": 16.3,
+      "Asian": 12.8,
+      "Two or more races": 4.7,
+      "Filipino": 4.7,
+      "Black": 3.7,
+      "Pacific Islander": 1.6,
+      "Native American": 0.2,
+      "Unspecified": 4
+    },
+    "gender": {
+      "male": 51.7,
+      "female": 48.1
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 5.14,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5562,
+        "name": "Moreland Middle School",
+        "path": "/california/san-jose/5562-Moreland-Middle-School/",
+        "distanceMi": 0.4,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 8.35,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Moreland School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/moreland-school-district/"
+  },
+  {
+    "id": 5563,
+    "name": "Country Lane Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5563-Country-Lane-Elementary-School/",
+    "path": "/california/san-jose/5563-Country-Lane-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "646",
+    "address": {
+      "street": "5140 Country Lane",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95129",
+      "full": "5140 Country Lane, San Jose, CA, 95129"
+    },
+    "phone": "408-874-3400",
+    "lat": 37.2975517,
+    "lng": -121.9910565,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 30,
+      "englishLearners": 29.7,
+      "studentsPerTeacher": 20,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 41.2,
+      "Hispanic": 24.1,
+      "White": 17.6,
+      "Two or more races": 5.4,
+      "Black": 2.9,
+      "Filipino": 2.5,
+      "Pacific Islander": 0.5,
+      "Unspecified": 7
+    },
+    "gender": {
+      "male": 52.7,
+      "female": 47.3
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5565,
+        "name": "Easterbrook Discovery",
+        "path": "/california/san-jose/5565-Easterbrook-Discovery/",
+        "distanceMi": 0.51,
+        "type": "Public district",
+        "grades": "K-8"
+      },
+      "middle": {
+        "id": 5562,
+        "name": "Moreland Middle School",
+        "path": "/california/san-jose/5562-Moreland-Middle-School/",
+        "distanceMi": 0.73,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5426,
+        "name": "Prospect High School",
+        "path": "/california/saratoga/5426-Prospect-High-School/",
+        "distanceMi": 0.67,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Moreland School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/moreland-school-district/"
+  },
+  {
+    "id": 5560,
+    "name": "Leroy Anderson Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5560-Leroy-Anderson-Elementary-School/",
+    "path": "/california/san-jose/5560-Leroy-Anderson-Elementary-School/",
+    "rating": 4,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "646",
+    "address": {
+      "street": "4000 Rhoda Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95117",
+      "full": "4000 Rhoda Drive, San Jose, CA, 95117"
+    },
+    "phone": "(408) 874-3100",
+    "lat": 37.3032233,
+    "lng": -121.9710693,
+    "metrics": {
+      "rating": 4,
+      "lowIncome": 86.2,
+      "englishLearners": 51.7,
+      "studentsPerTeacher": 20,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 76.9,
+      "White": 7.7,
+      "Black": 2.7,
+      "Asian": 2.7,
+      "Two or more races": 1.9,
+      "Filipino": 1.3,
+      "Native American": 0.8,
+      "Pacific Islander": 0.5,
+      "Unspecified": 4
+    },
+    "gender": {
+      "male": 56,
+      "female": 44
+    },
+    "nearby": {
+      "elementary": {
+        "id": 17001,
+        "name": "Discovery Charter School",
+        "path": "/california/san-jose/17001-Discovery-Charter-School/",
+        "distanceMi": 0.05,
+        "type": "Public charter",
+        "grades": "K-8"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 6.91,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 5423,
+        "name": "Boynton High School",
+        "path": "/california/san-jose/5423-Boynton-High-School/",
+        "distanceMi": 0.57,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "Moreland School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/moreland-school-district/"
+  },
+  {
+    "id": 5684,
+    "name": "Reed Elementary School",
+    "url": "https://www.greatschools.org/california/san-jose/5684-Reed-Elementary-School/",
+    "path": "/california/san-jose/5684-Reed-Elementary-School/",
+    "rating": 9,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "655",
+    "address": {
+      "street": "1524 Jacob Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "full": "1524 Jacob Avenue, San Jose, CA, 95118"
+    },
+    "phone": "(408) 535-6247",
+    "lat": 37.2631058,
+    "lng": -121.8940938,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 24.7,
+      "englishLearners": 11.2,
+      "studentsPerTeacher": 20,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "White": 35.1,
+      "Hispanic": 31.2,
+      "Asian": 19.4,
+      "Two or more races": 12.9,
+      "Pacific Islander": 1.1,
+      "Filipino": 0.3,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 54.2,
+      "female": 45.8
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5669,
+        "name": "Hacienda Science/Environmental Magnet School",
+        "path": "/california/san-jose/5669-Hacienda-Science-Environmental-Magnet-School/",
+        "distanceMi": 0.72,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5679,
+        "name": "John Muir Middle School",
+        "path": "/california/san-jose/5679-John-Muir-Middle-School/",
+        "distanceMi": 0.69,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 11149,
+        "name": "Branham High School",
+        "path": "/california/san-jose/11149-Branham-High-School/",
+        "distanceMi": 0.76,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:51:22.821Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 27233,
+    "name": "Summit Public School: Denali",
+    "url": "https://www.greatschools.org/california/sunnyvale/27233-Summit-Public-School-Denali/",
+    "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+    "rating": 10,
+    "level": "m,h",
+    "type": "charter",
+    "grades": "6-12",
+    "district": "1116",
+    "address": {
+      "street": "539 East Weddell Drive",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94089",
+      "full": "539 East Weddell Drive, Sunnyvale, CA, 94089"
+    },
+    "phone": "(669) 721-2646",
+    "lat": 37.3988565,
+    "lng": -122.0142248,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": null,
+      "englishLearners": 8.7,
+      "studentsPerTeacher": 15,
+      "pctCertifiedTeachers": 90
+    },
+    "demographics": {
+      "Hispanic": 35,
+      "Asian or Pacific Islander": 27.2,
+      "White": 21.6,
+      "Two or more races": 13.8,
+      "Black": 1.1,
+      "Native American": 0.6,
+      "Native Hawaiian or Other Pacific Islander": 0
+    },
+    "gender": {
+      "male": 57.1,
+      "female": 42.3
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5707,
+        "name": "San Miguel Elementary School",
+        "path": "/california/sunnyvale/5707-San-Miguel-Elementary-School/",
+        "distanceMi": 0.53,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5702,
+        "name": "Columbia Middle School",
+        "path": "/california/sunnyvale/5702-Columbia-Middle-School/",
+        "distanceMi": 0.34,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 8.77,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Santa Clara County Office Of Education School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/santa-clara-county-office-of-education-school-district/"
+  },
+  {
+    "id": 24687,
+    "name": "KIPP San Jose Collegiate",
+    "url": "https://www.greatschools.org/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+    "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+    "rating": 10,
+    "level": "h",
+    "type": "charter",
+    "grades": "9-12",
+    "district": "632",
+    "address": {
+      "street": "1790 Educational Park Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95133",
+      "full": "1790 Educational Park Drive, San Jose, CA, 95133"
+    },
+    "phone": "(408) 937-3752",
+    "lat": 37.3687068,
+    "lng": -121.8599463,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 71.7,
+      "englishLearners": 15,
+      "studentsPerTeacher": 21,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 67.4,
+      "Asian": 27.7,
+      "Filipino": 3.1,
+      "White": 0.6,
+      "Two or more races": 0.6,
+      "Black": 0.6
+    },
+    "gender": {
+      "male": 51.2,
+      "female": 48.8
+    },
+    "nearby": {
+      "elementary": {
+        "id": 11157,
+        "name": "Hammer Montessori At Galarza Elementary School",
+        "path": "/california/san-jose/11157-Hammer-Montessori-At-Galarza-Elementary-School/",
+        "distanceMi": 4.76,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 8.77,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 5456,
+        "name": "Independence High School",
+        "path": "/california/san-jose/5456-Independence-High-School/",
+        "distanceMi": 0.14,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "East Side Union High School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/east-side-union-high-school-district/"
+  },
+  {
+    "id": 5639,
+    "name": "Marian A. Peterson Middle School",
+    "url": "https://www.greatschools.org/california/sunnyvale/5639-Marian-A.-Peterson-Middle-School/",
+    "path": "/california/sunnyvale/5639-Marian-A.-Peterson-Middle-School/",
+    "rating": 9,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "654",
+    "address": {
+      "street": "1380 Rosalia Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94087",
+      "full": "1380 Rosalia Avenue, Sunnyvale, CA, 94087"
+    },
+    "phone": "(408) 423-2800",
+    "lat": 37.3486578,
+    "lng": -122.0076909,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 24.5,
+      "englishLearners": 17.7,
+      "studentsPerTeacher": 19,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 43.1,
+      "Hispanic": 30.2,
+      "White": 16.2,
+      "Two or more races": 4.5,
+      "Filipino": 3,
+      "Black": 1.1,
+      "Native American": 0.7,
+      "Pacific Islander": 0.1,
+      "Unspecified": 2
+    },
+    "gender": {
+      "male": 51.6,
+      "female": 48.4
+    },
+    "nearby": {
+      "elementary": {
+        "id": 10862,
+        "name": "Amy Imai Elementary",
+        "path": "/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/",
+        "distanceMi": 4.1,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 3.37,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 8.23,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Santa Clara Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/santa-clara/santa-clara-unified-school-district/"
+  },
+  {
+    "id": 5638,
+    "name": "New Valley Continuation High School",
+    "url": "https://www.greatschools.org/california/santa-clara/5638-New-Valley-Continuation-High-School/",
+    "path": "/california/santa-clara/5638-New-Valley-Continuation-High-School/",
+    "rating": 1,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "654",
+    "address": {
+      "street": "1875 Lawrence Road",
+      "city": "Santa Clara",
+      "state": "CA",
+      "zip": "95051",
+      "full": "1875 Lawrence Road, Santa Clara, CA, 95051"
+    },
+    "phone": "(408) 423-2300",
+    "lat": 37.356708,
+    "lng": -121.995685,
+    "metrics": {
+      "rating": 1,
+      "lowIncome": 57.6,
+      "englishLearners": 24.5,
+      "studentsPerTeacher": 9,
+      "pctCertifiedTeachers": 94
+    },
+    "demographics": {
+      "Hispanic": 82.1,
+      "White": 8.6,
+      "Two or more races": 4,
+      "Asian": 2.6,
+      "Black": 1.3,
+      "Filipino": 0.7
+    },
+    "gender": {
+      "male": 58.3,
+      "female": 41.7
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5629,
+        "name": "Briarwood Elementary School",
+        "path": "/california/santa-clara/5629-Briarwood-Elementary-School/",
+        "distanceMi": 0.44,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 3.02,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 7.48,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Santa Clara Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/santa-clara/santa-clara-unified-school-district/"
+  },
+  {
+    "id": 5579,
+    "name": "Alta Vista High School",
+    "url": "https://www.greatschools.org/california/mountain-view/5579-Alta-Vista-High-School/",
+    "path": "/california/mountain-view/5579-Alta-Vista-High-School/",
+    "rating": 4,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "649",
+    "address": {
+      "street": "1325 Bryant Avenue",
+      "city": "Mountain View",
+      "state": "CA",
+      "zip": "94040",
+      "full": "1325 Bryant Avenue, Mountain View, CA, 94040"
+    },
+    "phone": "(650) 691-2433",
+    "lat": 37.3604807,
+    "lng": -122.0638516,
+    "metrics": {
+      "rating": 4,
+      "lowIncome": 57.7,
+      "englishLearners": 29.5,
+      "studentsPerTeacher": 11,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 66.7,
+      "White": 7.7,
+      "Pacific Islander": 7.7,
+      "Two or more races": 6.4,
+      "Asian": 6.4,
+      "Filipino": 2.6,
+      "Black": 2.6
+    },
+    "gender": {
+      "male": 53.8,
+      "female": 44.9
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5519,
+        "name": "Oak Avenue Elementary School",
+        "path": "/california/los-altos/5519-Oak-Avenue-Elementary-School/",
+        "distanceMi": 0.46,
+        "type": "Public district",
+        "grades": "K-6"
+      },
+      "middle": {
+        "id": 5708,
+        "name": "Sunnyvale Middle School",
+        "path": "/california/sunnyvale/5708-Sunnyvale-Middle-School/",
+        "distanceMi": 0.67,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5581,
+        "name": "Mountain View High School",
+        "path": "/california/mountain-view/5581-Mountain-View-High-School/",
+        "distanceMi": 0.2,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Mountain View-Los Altos Union High School District",
+    "districtUrl": "https://www.greatschools.org/california/mountain-view/mountain-view_los-altos-union-high-school-district/"
+  },
+  {
+    "id": 32733,
+    "name": "Mission Early College High",
+    "url": "https://www.greatschools.org/california/santa-clara/32733-Mission-Early-College-High/",
+    "path": "/california/santa-clara/32733-Mission-Early-College-High/",
+    "rating": 10,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "654",
+    "address": {
+      "street": "3000 Mission College Boulevard",
+      "city": "Santa Clara",
+      "state": "CA",
+      "zip": "95054",
+      "full": "3000 Mission College Boulevard, Santa Clara, CA, 95054"
+    },
+    "phone": "(408) 855-5532",
+    "lat": 37.3908761,
+    "lng": -121.9812999,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 33.3,
+      "englishLearners": 2.2,
+      "studentsPerTeacher": 18,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 30.6,
+      "Hispanic": 26.2,
+      "White": 21.9,
+      "Black": 12,
+      "Two or more races": 5.5,
+      "Filipino": 3.8
+    },
+    "gender": {
+      "male": 38.8,
+      "female": 61.2
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5705,
+        "name": "Fairwood Elementary School",
+        "path": "/california/sunnyvale/5705-Fairwood-Elementary-School/",
+        "distanceMi": 0.69,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 1.97,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 6.8,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Santa Clara Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/santa-clara/santa-clara-unified-school-district/"
+  },
+  {
+    "id": 25818,
+    "name": "North County Regional Occupational Program School",
+    "url": "https://www.greatschools.org/california/sunnyvale/25818-North-County-Regional-Occupational-Program-School/",
+    "path": "/california/sunnyvale/25818-North-County-Regional-Occupational-Program-School/",
+    "rating": null,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "1279",
+    "address": {
+      "street": "589 West Fremont Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94087",
+      "full": "589 West Fremont Avenue, Sunnyvale, CA, 94087"
+    },
+    "phone": "(408) 522-2200",
+    "lat": 37.3533875,
+    "lng": -122.037712,
+    "metrics": {
+      "rating": null,
+      "lowIncome": null,
+      "englishLearners": null,
+      "studentsPerTeacher": null,
+      "pctCertifiedTeachers": null
+    },
+    "demographics": {},
+    "gender": {
+      "male": null,
+      "female": null
+    },
+    "nearby": {
+      "elementary": {
+        "id": 10862,
+        "name": "Amy Imai Elementary",
+        "path": "/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/",
+        "distanceMi": 2.55,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 3.3,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 14039,
+        "name": "Community Day School",
+        "path": "/california/sunnyvale/14039-Community-Day-School/",
+        "distanceMi": 0,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "North County Regional Occupational Center Program (Roc P) School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/north-county-regional-occupational-center-program-(roc-p)-school-district/"
+  },
+  {
+    "id": 14794,
+    "name": "Sam H. Lawson Middle School",
+    "url": "https://www.greatschools.org/california/cupertino/14794-Sam-H.-Lawson-Middle-School/",
+    "path": "/california/cupertino/14794-Sam-H.-Lawson-Middle-School/",
+    "rating": 10,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "631",
+    "address": {
+      "street": "10401 Vista Drive",
+      "city": "Cupertino",
+      "state": "CA",
+      "zip": "95014",
+      "full": "10401 Vista Drive, Cupertino, CA, 95014"
+    },
+    "phone": "(408) 255-7500",
+    "lat": 37.3282306,
+    "lng": -122.0278529,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 15.3,
+      "englishLearners": 12.7,
+      "studentsPerTeacher": 20,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 82.4,
+      "White": 6.2,
+      "Hispanic": 3.7,
+      "Two or more races": 3.3,
+      "Filipino": 1.2,
+      "Black": 0.7,
+      "Native American": 0.2,
+      "Pacific Islander": 0.1,
+      "Unspecified": 3
+    },
+    "gender": {
+      "male": 53.9,
+      "female": 46.1
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5429,
+        "name": "L. P. Collins Elementary School",
+        "path": "/california/cupertino/5429-L.-P.-Collins-Elementary-School/",
+        "distanceMi": 0.26,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 4.74,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 9.57,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/"
+  },
+  {
+    "id": 25620,
+    "name": "Summit Public School: Tahoma",
+    "url": "https://www.greatschools.org/california/san-jose/25620-Summit-Public-School-Tahoma/",
+    "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+    "rating": 10,
+    "level": "h",
+    "type": "charter",
+    "grades": "9-12",
+    "district": "1116",
+    "address": {
+      "street": "285 Blossom Hill Road",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95123",
+      "full": "285 Blossom Hill Road, San Jose, CA, 95123"
+    },
+    "phone": "(408) 729-1981",
+    "lat": 37.2548403,
+    "lng": -121.8200278,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 30,
+      "englishLearners": 7.3,
+      "studentsPerTeacher": 17,
+      "pctCertifiedTeachers": 96
+    },
+    "demographics": {
+      "Hispanic": 39.4,
+      "White": 23.2,
+      "Asian": 16.4,
+      "Two or more races": 10.4,
+      "Filipino": 4.4,
+      "Black": 3.1,
+      "Unspecified": 5
+    },
+    "gender": {
+      "male": 54.8,
+      "female": 43.9
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5582,
+        "name": "Anderson (Alex) Elementary School",
+        "path": "/california/san-jose/5582-Anderson-Alex-Elementary-School/",
+        "distanceMi": 0.63,
+        "type": "Public district",
+        "grades": "K-6"
+      },
+      "middle": {
+        "id": 31093,
+        "name": "College Connection Academy",
+        "path": "/california/san-jose/31093-College-Connection-Academy/",
+        "distanceMi": 4.94,
+        "type": "Public district",
+        "grades": "7-8"
+      },
+      "high": {
+        "id": 5459,
+        "name": "Oak Grove High School",
+        "path": "/california/san-jose/5459-Oak-Grove-High-School/",
+        "distanceMi": 0,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Santa Clara County Office Of Education School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/santa-clara-county-office-of-education-school-district/"
+  },
+  {
+    "id": 31093,
+    "name": "College Connection Academy",
+    "url": "https://www.greatschools.org/california/san-jose/31093-College-Connection-Academy/",
+    "path": "/california/san-jose/31093-College-Connection-Academy/",
+    "rating": 10,
+    "level": "m",
+    "type": "public",
+    "grades": "7-8",
+    "district": "634",
+    "address": {
+      "street": "1855 Lucretia Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95122",
+      "full": "1855 Lucretia Avenue, San Jose, CA, 95122"
+    },
+    "phone": "(408) 347-4827",
+    "lat": 37.3190177,
+    "lng": -121.849477,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 66.2,
+      "englishLearners": 3.8,
+      "studentsPerTeacher": 20,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 56.8,
+      "Hispanic": 32.4,
+      "Filipino": 7.5,
+      "Two or more races": 1.4,
+      "White": 0.9,
+      "Native American": 0.5,
+      "Black": 0.5,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 50.7,
+      "female": 49.3
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5487,
+        "name": "Robert F. Kennedy Elementary School",
+        "path": "/california/san-jose/5487-Robert-F.-Kennedy-Elementary-School/",
+        "distanceMi": 0.29,
+        "type": "Public district",
+        "grades": "K-6"
+      },
+      "middle": {
+        "id": 5483,
+        "name": "Bridges Academy",
+        "path": "/california/san-jose/5483-Bridges-Academy/",
+        "distanceMi": 0.43,
+        "type": "Public district",
+        "grades": "7-8"
+      },
+      "high": {
+        "id": 32218,
+        "name": "Luis Valdez Leadership Academy",
+        "path": "/california/san-jose/32218-Luis-Valdez-Leadership-Academy/",
+        "distanceMi": 0,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Franklin-Mckinley Elementary School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/franklin_mckinley-elementary-school-district/"
+  },
+  {
+    "id": 5679,
+    "name": "John Muir Middle School",
+    "url": "https://www.greatschools.org/california/san-jose/5679-John-Muir-Middle-School/",
+    "path": "/california/san-jose/5679-John-Muir-Middle-School/",
+    "rating": 6,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "655",
+    "address": {
+      "street": "1260 Branham Lane",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "full": "1260 Branham Lane, San Jose, CA, 95118"
+    },
+    "phone": "(408) 535-6281",
+    "lat": 37.2602736,
+    "lng": -121.8814643,
+    "metrics": {
+      "rating": 6,
+      "lowIncome": 55.7,
+      "englishLearners": 24,
+      "studentsPerTeacher": 18,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 59.6,
+      "White": 19.1,
+      "Asian": 8.7,
+      "Two or more races": 6.4,
+      "Black": 2.9,
+      "Filipino": 2.8,
+      "Pacific Islander": 0.3,
+      "Native American": 0.1
+    },
+    "gender": {
+      "male": 53,
+      "female": 47
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5669,
+        "name": "Hacienda Science/Environmental Magnet School",
+        "path": "/california/san-jose/5669-Hacienda-Science-Environmental-Magnet-School/",
+        "distanceMi": 0.6,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 31093,
+        "name": "College Connection Academy",
+        "path": "/california/san-jose/31093-College-Connection-Academy/",
+        "distanceMi": 4.56,
+        "type": "Public district",
+        "grades": "7-8"
+      },
+      "high": {
+        "id": 5653,
+        "name": "Broadway High School",
+        "path": "/california/san-jose/5653-Broadway-High-School/",
+        "distanceMi": 0.16,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5713,
+    "name": "Dartmouth Middle School",
+    "url": "https://www.greatschools.org/california/san-jose/5713-Dartmouth-Middle-School/",
+    "path": "/california/san-jose/5713-Dartmouth-Middle-School/",
+    "rating": 8,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "657",
+    "address": {
+      "street": "5575 Dartmouth Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "full": "5575 Dartmouth Drive, San Jose, CA, 95118"
+    },
+    "phone": "(408) 264-1122",
+    "lat": 37.2400969,
+    "lng": -121.8984488,
+    "metrics": {
+      "rating": 8,
+      "lowIncome": 18.2,
+      "englishLearners": 14.3,
+      "studentsPerTeacher": 24,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 34.8,
+      "White": 31.2,
+      "Hispanic": 23,
+      "Two or more races": 8.2,
+      "Filipino": 1.2,
+      "Black": 1.2,
+      "Pacific Islander": 0.1,
+      "Native American": 0.1,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 52.9,
+      "female": 47.1
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5715,
+        "name": "Lietz Elementary School",
+        "path": "/california/san-jose/5715-Lietz-Elementary-School/",
+        "distanceMi": 0.35,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 31093,
+        "name": "College Connection Academy",
+        "path": "/california/san-jose/31093-College-Connection-Academy/",
+        "distanceMi": 6.19,
+        "type": "Public district",
+        "grades": "7-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 4.41,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Union Elementary School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/union-elementary-school-district/"
+  },
+  {
+    "id": 5653,
+    "name": "Broadway High School",
+    "url": "https://www.greatschools.org/california/san-jose/5653-Broadway-High-School/",
+    "path": "/california/san-jose/5653-Broadway-High-School/",
+    "rating": 1,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "655",
+    "address": {
+      "street": "4825 Speak Lane",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "full": "4825 Speak Lane, San Jose, CA, 95118"
+    },
+    "phone": "(408) 535-6285",
+    "lat": 37.2612624,
+    "lng": -121.8798853,
+    "metrics": {
+      "rating": 1,
+      "lowIncome": 74.4,
+      "englishLearners": 47.2,
+      "studentsPerTeacher": 8,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 88.6,
+      "White": 4.5,
+      "Black": 3.4,
+      "Asian": 1.7,
+      "Two or more races": 1.1,
+      "Native American": 0.6
+    },
+    "gender": {
+      "male": 52.8,
+      "female": 47.2
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5669,
+        "name": "Hacienda Science/Environmental Magnet School",
+        "path": "/california/san-jose/5669-Hacienda-Science-Environmental-Magnet-School/",
+        "distanceMi": 0.55,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5679,
+        "name": "John Muir Middle School",
+        "path": "/california/san-jose/5679-John-Muir-Middle-School/",
+        "distanceMi": 0.16,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 3.35,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5698,
+    "name": "Willow Glen Middle School",
+    "url": "https://www.greatschools.org/california/san-jose/5698-Willow-Glen-Middle-School/",
+    "path": "/california/san-jose/5698-Willow-Glen-Middle-School/",
+    "rating": 5,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "655",
+    "address": {
+      "street": "2105 Cottle Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95125",
+      "full": "2105 Cottle Avenue, San Jose, CA, 95125"
+    },
+    "phone": "(408) 535-6277",
+    "lat": 37.2889409,
+    "lng": -121.8967801,
+    "metrics": {
+      "rating": 5,
+      "lowIncome": 37.9,
+      "englishLearners": 20.8,
+      "studentsPerTeacher": 20,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 50.3,
+      "White": 30.8,
+      "Two or more races": 8.9,
+      "Asian": 6.5,
+      "Black": 1.8,
+      "Filipino": 1.3,
+      "Pacific Islander": 0.3,
+      "Native American": 0.2
+    },
+    "gender": {
+      "male": 52,
+      "female": 48
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5651,
+        "name": "Booksin Elementary School",
+        "path": "/california/san-jose/5651-Booksin-Elementary-School/",
+        "distanceMi": 0.56,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 9.92,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 5697,
+        "name": "Willow Glen High School",
+        "path": "/california/san-jose/5697-Willow-Glen-High-School/",
+        "distanceMi": 0.14,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5697,
+    "name": "Willow Glen High School",
+    "url": "https://www.greatschools.org/california/san-jose/5697-Willow-Glen-High-School/",
+    "path": "/california/san-jose/5697-Willow-Glen-High-School/",
+    "rating": 8,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "655",
+    "address": {
+      "street": "2001 Cottle Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95125",
+      "full": "2001 Cottle Avenue, San Jose, CA, 95125"
+    },
+    "phone": "(408) 535-6330",
+    "lat": 37.2907329,
+    "lng": -121.8983847,
+    "metrics": {
+      "rating": 8,
+      "lowIncome": 39.9,
+      "englishLearners": 14.8,
+      "studentsPerTeacher": 21,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 54.6,
+      "White": 29.8,
+      "Two or more races": 6.5,
+      "Asian": 4.9,
+      "Black": 2.5,
+      "Filipino": 1.2,
+      "Pacific Islander": 0.5,
+      "Native American": 0.1,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 53.1,
+      "female": 46.9
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5651,
+        "name": "Booksin Elementary School",
+        "path": "/california/san-jose/5651-Booksin-Elementary-School/",
+        "distanceMi": 0.45,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5698,
+        "name": "Willow Glen Middle School",
+        "path": "/california/san-jose/5698-Willow-Glen-Middle-School/",
+        "distanceMi": 0.14,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 5,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "San Jose Unified School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/san-jose-unified-school-district/"
+  },
+  {
+    "id": 5438,
+    "name": "John F. Kennedy Middle School",
+    "url": "https://www.greatschools.org/california/cupertino/5438-John-F.-Kennedy-Middle-School/",
+    "path": "/california/cupertino/5438-John-F.-Kennedy-Middle-School/",
+    "rating": 9,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "631",
+    "address": {
+      "street": "821 Bubb Road",
+      "city": "Cupertino",
+      "state": "CA",
+      "zip": "95014",
+      "full": "821 Bubb Road, Cupertino, CA, 95014"
+    },
+    "phone": "(408) 253-1525",
+    "lat": 37.311234,
+    "lng": -122.0527854,
+    "metrics": {
+      "rating": 9,
+      "lowIncome": 15.7,
+      "englishLearners": 7,
+      "studentsPerTeacher": 21,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 78.1,
+      "White": 9.7,
+      "Hispanic": 4.3,
+      "Two or more races": 3.6,
+      "Filipino": 1.3,
+      "Pacific Islander": 0.5,
+      "Black": 0.2,
+      "Native American": 0.1,
+      "Unspecified": 3
+    },
+    "gender": {
+      "male": 50.3,
+      "female": 49.7
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5439,
+        "name": "Abraham Lincoln Elementary School",
+        "path": "/california/cupertino/5439-Abraham-Lincoln-Elementary-School/",
+        "distanceMi": 0.23,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 14794,
+        "name": "Sam H. Lawson Middle School",
+        "path": "/california/cupertino/14794-Sam-H.-Lawson-Middle-School/",
+        "distanceMi": 1.84,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 5500,
+        "name": "Monta Vista High School",
+        "path": "/california/cupertino/5500-Monta-Vista-High-School/",
+        "distanceMi": 0.28,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Cupertino Union School District",
+    "districtUrl": "https://www.greatschools.org/california/sunnyvale/cupertino-union-school-district/"
+  },
+  {
+    "id": 5562,
+    "name": "Moreland Middle School",
+    "url": "https://www.greatschools.org/california/san-jose/5562-Moreland-Middle-School/",
+    "path": "/california/san-jose/5562-Moreland-Middle-School/",
+    "rating": 7,
+    "level": "m",
+    "type": "public",
+    "grades": "6-8",
+    "district": "646",
+    "address": {
+      "street": "4600 Student Lane",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95130",
+      "full": "4600 Student Lane, San Jose, CA, 95130"
+    },
+    "phone": "(408) 874-3300",
+    "lat": 37.2883468,
+    "lng": -121.9845119,
+    "metrics": {
+      "rating": 7,
+      "lowIncome": 39,
+      "englishLearners": 22.1,
+      "studentsPerTeacher": 25,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 44.4,
+      "Asian": 23.1,
+      "White": 17.4,
+      "Two or more races": 7.5,
+      "Filipino": 2.8,
+      "Black": 1.7,
+      "Native American": 0.4,
+      "Pacific Islander": 0.3,
+      "Unspecified": 4
+    },
+    "gender": {
+      "male": 47.8,
+      "female": 51.8
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5561,
+        "name": "Gussie M. Baker Elementary School",
+        "path": "/california/san-jose/5561-Gussie-M.-Baker-Elementary-School/",
+        "distanceMi": 0.36,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 7.68,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 8.75,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Moreland School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/moreland-school-district/"
+  },
+  {
+    "id": 5426,
+    "name": "Prospect High School",
+    "url": "https://www.greatschools.org/california/saratoga/5426-Prospect-High-School/",
+    "path": "/california/saratoga/5426-Prospect-High-School/",
+    "rating": 8,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "630",
+    "address": {
+      "street": "18900 Prospect Road",
+      "city": "Saratoga",
+      "state": "CA",
+      "zip": "95070",
+      "full": "18900 Prospect Road, Saratoga, CA, 95070"
+    },
+    "phone": "(408) 626-3408",
+    "lat": 37.2926974,
+    "lng": -122.002764,
+    "metrics": {
+      "rating": 8,
+      "lowIncome": 50.3,
+      "englishLearners": 11.8,
+      "studentsPerTeacher": 23,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 39.2,
+      "Asian": 27.4,
+      "White": 19.1,
+      "Two or more races": 5.1,
+      "Black": 3.9,
+      "Filipino": 2.7,
+      "Native American": 0.8,
+      "Pacific Islander": 0.8,
+      "Unspecified": 1
+    },
+    "gender": {
+      "male": 50.8,
+      "female": 48.8
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5440,
+        "name": "Christa McAuliffe Elementary School",
+        "path": "/california/saratoga/5440-Christa-McAuliffe-Elementary-School/",
+        "distanceMi": 0.55,
+        "type": "Public district",
+        "grades": "K-8"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 7.37,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 5499,
+        "name": "Lynbrook High School",
+        "path": "/california/san-jose/5499-Lynbrook-High-School/",
+        "distanceMi": 0.75,
+        "type": "Public district",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Campbell Union High School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/campbell-union-high-school-district/"
+  },
+  {
+    "id": 5423,
+    "name": "Boynton High School",
+    "url": "https://www.greatschools.org/california/san-jose/5423-Boynton-High-School/",
+    "path": "/california/san-jose/5423-Boynton-High-School/",
+    "rating": 2,
+    "level": "h",
+    "type": "public",
+    "grades": "9-12",
+    "district": "630",
+    "address": {
+      "street": "901 Boynton Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95117",
+      "full": "901 Boynton Avenue, San Jose, CA, 95117"
+    },
+    "phone": "(408) 626-3404",
+    "lat": 37.3106175,
+    "lng": -121.9669459,
+    "metrics": {
+      "rating": 2,
+      "lowIncome": 76.7,
+      "englishLearners": 9.8,
+      "studentsPerTeacher": 13,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Hispanic": 84,
+      "White": 6.1,
+      "Two or more races": 3.7,
+      "Black": 3.7,
+      "Pacific Islander": 1.2,
+      "Asian": 1.2
+    },
+    "gender": {
+      "male": 50.3,
+      "female": 49.1
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5416,
+        "name": "Lynhaven Elementary School",
+        "path": "/california/san-jose/5416-Lynhaven-Elementary-School/",
+        "distanceMi": 0.36,
+        "type": "Public charter",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 27233,
+        "name": "Summit Public School: Denali",
+        "path": "/california/sunnyvale/27233-Summit-Public-School-Denali/",
+        "distanceMi": 6.54,
+        "type": "Public charter",
+        "grades": "6-12"
+      },
+      "high": {
+        "id": 24687,
+        "name": "KIPP San Jose Collegiate",
+        "path": "/california/san-jose/24687-KIPP-San-Jose-Collegiate/",
+        "distanceMi": 7.11,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T10:54:23.959Z",
+    "districtName": "Campbell Union High School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/campbell-union-high-school-district/"
+  },
+  {
+    "id": 5710,
+    "name": "Alta Vista Elementary School",
+    "url": "https://www.greatschools.org/california/los-gatos/5710-Alta-Vista-Elementary-School/",
+    "path": "/california/los-gatos/5710-Alta-Vista-Elementary-School/",
+    "rating": 10,
+    "level": "e",
+    "type": "public",
+    "grades": "K-5",
+    "district": "657",
+    "address": {
+      "street": "200 Blossom Valley Drive",
+      "city": "Los Gatos",
+      "state": "CA",
+      "zip": "95032",
+      "full": "200 Blossom Valley Drive, Los Gatos, CA, 95032"
+    },
+    "phone": "(408) 356-6146",
+    "lat": 37.2387921,
+    "lng": -121.9413268,
+    "metrics": {
+      "rating": 10,
+      "lowIncome": 7,
+      "englishLearners": 13.2,
+      "studentsPerTeacher": 25,
+      "pctCertifiedTeachers": 100
+    },
+    "demographics": {
+      "Asian": 41.8,
+      "White": 35.4,
+      "Hispanic": 11.3,
+      "Two or more races": 9.4,
+      "Filipino": 1.2,
+      "Pacific Islander": 0.3,
+      "Native American": 0.3,
+      "Black": 0.2,
+      "Unspecified": 2
+    },
+    "gender": {
+      "male": 51.9,
+      "female": 48.1
+    },
+    "nearby": {
+      "elementary": {
+        "id": 5712,
+        "name": "Carlton Elementary School",
+        "path": "/california/san-jose/5712-Carlton-Elementary-School/",
+        "distanceMi": 0.58,
+        "type": "Public district",
+        "grades": "K-5"
+      },
+      "middle": {
+        "id": 5719,
+        "name": "Union Middle School",
+        "path": "/california/san-jose/5719-Union-Middle-School/",
+        "distanceMi": 0.4,
+        "type": "Public district",
+        "grades": "6-8"
+      },
+      "high": {
+        "id": 25620,
+        "name": "Summit Public School: Tahoma",
+        "path": "/california/san-jose/25620-Summit-Public-School-Tahoma/",
+        "distanceMi": 6.78,
+        "type": "Public charter",
+        "grades": "9-12"
+      }
+    },
+    "scrapedAt": "2026-05-31T11:16:13.762Z",
+    "districtName": "Union Elementary School District",
+    "districtUrl": "https://www.greatschools.org/california/san-jose/union-elementary-school-district/"
+  }
+]

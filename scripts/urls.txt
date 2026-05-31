@@ -1,0 +1,44 @@
+# GreatSchools URLs to seed the dashboard — Sunnyvale, Cambrian, Almaden clusters
+# One URL per line. Lines starting with # are ignored.
+
+# ---- Sunnyvale ----
+https://www.greatschools.org/california/sunnyvale/5451-West-Valley-Elementary-School/
+https://www.greatschools.org/california/sunnyvale/5628-Braly-Elementary-School/
+https://www.greatschools.org/california/sunnyvale/5641-Ponderosa-Elementary-School/
+https://www.greatschools.org/california/sunnyvale/5700-Bishop-Elementary-School/
+https://www.greatschools.org/california/sunnyvale/5701-Cherry-Chase-Elementary-School/
+https://www.greatschools.org/california/sunnyvale/5702-Columbia-Middle-School/
+https://www.greatschools.org/california/sunnyvale/5703-Cumberland-Elementary-School/
+https://www.greatschools.org/california/sunnyvale/5704-Ellis-Elementary-School/
+https://www.greatschools.org/california/sunnyvale/5705-Fairwood-Elementary-School/
+https://www.greatschools.org/california/sunnyvale/5706-Lakewood-Elementary-School/
+https://www.greatschools.org/california/sunnyvale/5707-San-Miguel-Elementary-School/
+https://www.greatschools.org/california/sunnyvale/5708-Sunnyvale-Middle-School/
+https://www.greatschools.org/california/sunnyvale/5709-Vargas-Elementary-School/
+https://www.greatschools.org/california/sunnyvale/5430-Cupertino-Middle-School/
+https://www.greatschools.org/california/sunnyvale/5497-Fremont-High-School/
+
+# ---- Cambrian ----
+https://www.greatschools.org/california/san-jose/5718-Oster-Elementary-School/
+https://www.greatschools.org/california/san-jose/5405-Bagby-Elementary-School/
+https://www.greatschools.org/california/san-jose/5406-Fammatre-Elementary-School/
+https://www.greatschools.org/california/san-jose/5407-Farnham-Charter-School/
+https://www.greatschools.org/california/san-jose/5408-Price-Charter-Middle-School/
+https://www.greatschools.org/california/san-jose/5409-Sartorette-Charter-School/
+https://www.greatschools.org/california/san-jose/5712-Carlton-Elementary-School/
+https://www.greatschools.org/california/san-jose/5719-Union-Middle-School/
+https://www.greatschools.org/california/san-jose/5425-Leigh-High-School/
+https://www.greatschools.org/california/san-jose/11149-Branham-High-School/
+
+# ---- Almaden Valley ----
+https://www.greatschools.org/california/san-jose/5649-Almaden-Elementary-School/
+https://www.greatschools.org/california/san-jose/5666-Graystone-Elementary-School/
+https://www.greatschools.org/california/san-jose/5676-Los-Alamitos-Elementary-School/
+https://www.greatschools.org/california/san-jose/5689-Simonds-Elementary-School/
+https://www.greatschools.org/california/san-jose/5695-Williams-Elementary-School/
+https://www.greatschools.org/california/san-jose/5714-Guadalupe-Elementary-School/
+https://www.greatschools.org/california/san-jose/5669-Hacienda-Science-Environmental-Magnet-School/
+https://www.greatschools.org/california/san-jose/5656-Castillero-Middle-School/
+https://www.greatschools.org/california/san-jose/5670-Bret-Harte-Middle-School/
+https://www.greatschools.org/california/san-jose/5673-Leland-High-School/
+https://www.greatschools.org/california/san-jose/5681-Pioneer-High-School/
