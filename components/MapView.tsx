@@ -21,6 +21,7 @@ interface Props {
   selected: School | null;
   onSelect: (id: School["id"]) => void;
   pathway: Pathway | null;
+  favorites: Set<string>;
 }
 
 const LEVEL_LETTER: Record<string, string> = { e: "E", m: "M", h: "H" };
@@ -70,6 +71,7 @@ export default function MapView({
   selected,
   onSelect,
   pathway,
+  favorites,
 }: Props) {
   const highlightIds = pathway?.highlightIds ?? new Set<string>();
   const pathActive = highlightIds.size > 0;
@@ -155,19 +157,23 @@ export default function MapView({
         const value = metric.accessor(s);
         const isSel = s.id === selectedId;
         const onPath = highlightIds.has(String(s.id));
+        const fav = favorites.has(String(s.id));
         const fill = colorFor(metric, value, 1);
         const radius = markerRadius(metric, value, {
           selected: isSel || onPath,
         });
         const dimmed = pathActive && !onPath;
+        // Favorites get a gold ring (unless they're the selected/pathway node,
+        // whose own ring takes precedence).
+        const ring = isSel || onPath ? ringColor(String(s.id), isSel) : fav ? "#f59e0b" : ringColor(String(s.id), isSel);
         return (
           <CircleMarker
             key={String(s.id)}
             center={[s.lat as number, s.lng as number]}
             radius={radius}
             pathOptions={{
-              color: ringColor(String(s.id), isSel),
-              weight: isSel ? 3 : onPath ? 2.8 : 1.25,
+              color: ring,
+              weight: isSel ? 3 : onPath ? 2.8 : fav ? 2.4 : 1.25,
               fillColor: fill,
               fillOpacity: dimmed ? 0.22 : 1,
               opacity: dimmed ? 0.4 : 1,
@@ -176,6 +182,7 @@ export default function MapView({
           >
             <Tooltip direction="top" offset={[0, -6]} opacity={1}>
               <span className="school-tooltip">
+                {fav ? "★ " : ""}
                 {onPath ? `${LEVEL_LETTER[primaryLevel(s)] ?? ""} · ` : ""}
                 {s.name}
               </span>

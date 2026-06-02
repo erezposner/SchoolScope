@@ -34,6 +34,11 @@ interface Props {
   onToggleLevel: (k: string) => void;
   onSelectSchool: (id: School["id"]) => void;
   onSchoolAdded: (s: School) => void;
+  favorites: Set<string>;
+  favoritesOnly: boolean;
+  onToggleFavoritesOnly: () => void;
+  isFavorite: (id: School["id"]) => boolean;
+  onToggleFavorite: (id: School["id"]) => void;
 }
 
 export default function ControlPanel(props: Props) {
@@ -47,7 +52,14 @@ export default function ControlPanel(props: Props) {
     onToggleLevel,
     onSelectSchool,
     onSchoolAdded,
+    favorites,
+    favoritesOnly,
+    onToggleFavoritesOnly,
+    isFavorite,
+    onToggleFavorite,
   } = props;
+
+  const favCount = schools.filter((s) => favorites.has(String(s.id))).length;
 
   const levelCounts = LEVELS.map((l) => ({
     ...l,
@@ -70,7 +82,37 @@ export default function ControlPanel(props: Props) {
         </p>
       </div>
 
-      <SchoolSearch schools={schools} onSelect={onSelectSchool} />
+      <SchoolSearch
+        schools={schools}
+        onSelect={onSelectSchool}
+        isFavorite={isFavorite}
+        onToggleFavorite={onToggleFavorite}
+      />
+
+      <div>
+        <p className="section-title">Favorites</p>
+        <button
+          className={`pill fav-pill ${favoritesOnly ? "active" : ""}`}
+          onClick={onToggleFavoritesOnly}
+          aria-pressed={favoritesOnly}
+          disabled={favCount === 0 && !favoritesOnly}
+          title={
+            favCount === 0
+              ? "Star a school to add it to your favorites"
+              : favoritesOnly
+                ? "Showing favorites only"
+                : "Show only favorites"
+          }
+        >
+          ★ Favorites only <span style={{ opacity: 0.7 }}>({favCount})</span>
+        </button>
+        {favCount === 0 && (
+          <p className="fav-hint">
+            Tap the ☆ on a school to save it here. Favorites are stored in this
+            browser only.
+          </p>
+        )}
+      </div>
 
       <div>
         <p className="section-title">Areas</p>
@@ -154,9 +196,13 @@ export default function ControlPanel(props: Props) {
 function SchoolSearch({
   schools,
   onSelect,
+  isFavorite,
+  onToggleFavorite,
 }: {
   schools: School[];
   onSelect: (id: School["id"]) => void;
+  isFavorite: (id: School["id"]) => boolean;
+  onToggleFavorite: (id: School["id"]) => void;
 }) {
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
@@ -215,20 +261,31 @@ function SchoolSearch({
             <div className="search-empty">No schools match “{q.trim()}”</div>
           ) : (
             matches.map((s) => (
-              <button key={String(s.id)} className="search-result" onClick={() => pick(s.id)}>
-                <span
-                  className="search-dot"
-                  style={{ background: colorFor(METRIC_BY_KEY.rating, s.rating, 1) }}
-                >
-                  {s.rating ?? "—"}
-                </span>
-                <span className="search-meta">
-                  <span className="search-name">{s.name}</span>
-                  <span className="search-sub">
-                    {levelLabel(s)} · {areaForSchool(s)}
+              <div key={String(s.id)} className="search-result">
+                <button className="search-result-pick" onClick={() => pick(s.id)}>
+                  <span
+                    className="search-dot"
+                    style={{ background: colorFor(METRIC_BY_KEY.rating, s.rating, 1) }}
+                  >
+                    {s.rating ?? "—"}
                   </span>
-                </span>
-              </button>
+                  <span className="search-meta">
+                    <span className="search-name">{s.name}</span>
+                    <span className="search-sub">
+                      {levelLabel(s)} · {areaForSchool(s)}
+                    </span>
+                  </span>
+                </button>
+                <button
+                  className={`search-fav ${isFavorite(s.id) ? "on" : ""}`}
+                  onClick={() => onToggleFavorite(s.id)}
+                  aria-pressed={isFavorite(s.id)}
+                  aria-label={isFavorite(s.id) ? "Remove from favorites" : "Add to favorites"}
+                  title={isFavorite(s.id) ? "Remove from favorites" : "Add to favorites"}
+                >
+                  {isFavorite(s.id) ? "★" : "☆"}
+                </button>
+              </div>
             ))
           )}
         </div>

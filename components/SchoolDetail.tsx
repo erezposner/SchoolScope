@@ -15,6 +15,8 @@ export default function SchoolDetail({
   onClose,
   expanded,
   onToggleExpand,
+  isFavorite,
+  onToggleFavorite,
 }: {
   school: School;
   pathway: Pathway | null;
@@ -24,6 +26,8 @@ export default function SchoolDetail({
   onClose: () => void;
   expanded: boolean;
   onToggleExpand: () => void;
+  isFavorite: boolean;
+  onToggleFavorite: () => void;
 }) {
   // Touch gestures for the mobile bottom sheet:
   //   peek + swipe up      → expand
@@ -96,6 +100,15 @@ export default function SchoolDetail({
       >
         <span className="detail-grabber" />
       </div>
+      <button
+        className={`fav-toggle ${isFavorite ? "on" : ""}`}
+        onClick={onToggleFavorite}
+        aria-pressed={isFavorite}
+        aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
+        title={isFavorite ? "Remove from favorites" : "Add to favorites"}
+      >
+        {isFavorite ? "★" : "☆"}
+      </button>
       <button className="close" onClick={onClose} aria-label="Close">
         ×
       </button>

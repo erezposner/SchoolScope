@@ -6,6 +6,7 @@ import type { School } from "@/lib/types";
 import { METRIC_BY_KEY } from "@/lib/metrics";
 import { LEVELS, areaForSchool, areasFromSchools, levelsOf } from "@/lib/areas";
 import { pathwayFor } from "@/lib/pathways";
+import { useFavorites } from "@/lib/useFavorites";
 import ControlPanel from "./ControlPanel";
 import Legend from "./Legend";
 import SchoolDetail from "./SchoolDetail";
@@ -31,6 +32,10 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
   );
   const [selectedId, setSelectedId] = useState<School["id"] | null>(null);
 
+  // Favorites live in the browser (localStorage) — nothing is stored server-side.
+  const { favorites, toggleFavorite, isFavorite } = useFavorites();
+  const [favoritesOnly, setFavoritesOnly] = useState(false);
+
   const metric = METRIC_BY_KEY[metricKey];
 
   // Value-range filter for the active metric (driven by the legend slider).
@@ -44,6 +49,7 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
     const [rmin, rmax] = range;
     const full = rmin <= metric.domain[0] && rmax >= metric.domain[1];
     return schools.filter((s) => {
+      if (favoritesOnly && !favorites.has(String(s.id))) return false;
       if (!activeAreas.has(areaForSchool(s))) return false;
       const ls = levelsOf(s);
       if (ls.length > 0 && !ls.some((l) => activeLevels.has(l))) return false;
@@ -53,7 +59,7 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
       }
       return true;
     });
-  }, [schools, activeAreas, activeLevels, metric, range]);
+  }, [schools, activeAreas, activeLevels, metric, range, favoritesOnly, favorites]);
 
   // District family / feeder connections are opt-in — hidden until the user
   // clicks "Show" in the detail panel, so selecting a school stays uncluttered.
@@ -181,6 +187,11 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
           onToggleLevel={toggleLevel}
           onSelectSchool={selectSchool}
           onSchoolAdded={onSchoolAdded}
+          favorites={favorites}
+          favoritesOnly={favoritesOnly}
+          onToggleFavoritesOnly={() => setFavoritesOnly((v) => !v)}
+          isFavorite={isFavorite}
+          onToggleFavorite={toggleFavorite}
         />
       </aside>
 
@@ -192,6 +203,7 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
           selected={selected}
           onSelect={selectSchool}
           pathway={pathway}
+          favorites={favorites}
         />
         <Legend
           metric={metric}
@@ -209,6 +221,8 @@ export default function Dashboard({ schools: initialSchools }: { schools: School
             onClose={closeSchool}
             expanded={expanded}
             onToggleExpand={() => setExpanded((v) => !v)}
+            isFavorite={isFavorite(selected.id)}
+            onToggleFavorite={() => toggleFavorite(selected.id)}
           />
         )}
       </div>
